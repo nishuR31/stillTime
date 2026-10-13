@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    AppWidgetProvider declaration.
+
+    `android:configure` points at StilltimeWidgetConfigureActivity, which the
+    config plugin registers in AndroidManifest.xml.
+
+    `updatePeriodMillis="0"` disables the periodic refresh: the widget updates
+    on placement, on tap, and whenever the app broadcasts a refresh. A periodic
+    timer would wake the process for no reason.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:minWidth="180dp"
+    android:minHeight="110dp"
+    android:targetCellWidth="3"
+    android:targetCellHeight="2"
+    android:minResizeWidth="140dp"
+    android:minResizeHeight="90dp"
+    android:maxResizeWidth="450dp"
+    android:maxResizeHeight="450dp"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="0"
+    android:initialLayout="@layout/widget_stilltime"
+    android:configure="__STILLTIME_APP_PACKAGE__.widget.StilltimeWidgetConfigureActivity"
+    android:previewLayout="@layout/widget_stilltime"
+    android:widgetCategory="home_screen"
+    android:widgetFeatures="reconfigurable" />

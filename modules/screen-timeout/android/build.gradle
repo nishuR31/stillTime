@@ -1,0 +1,46 @@
+plugins {
+  id 'com.android.library'
+  id 'expo-module-gradle-plugin'
+}
+
+group = 'com.stilltime.timeout'
+version = '1.0.0'
+
+// Read the SDK versions straight off `rootProject.ext`, which is where Expo's
+// `expo-root-project` plugin publishes them from `gradle.properties`.
+// `project.ext.safeExtGet` is registered by `expo-module-gradle-plugin`, but it
+// is not available while this build script is still being evaluated, and a bare
+// `safeExtGet(...)` inside the `android { }` closure resolves against the
+// android extension first and fails.
+def extOr = { String property, Object fallback ->
+  rootProject.ext.has(property) ? rootProject.ext.get(property) : fallback
+}
+
+android {
+  namespace 'com.stilltime.timeout'
+  compileSdk (extOr('compileSdkVersion', 36) as Integer)
+
+  defaultConfig {
+    // `expo-module-gradle-plugin` reads these directly, so they must be set.
+    versionCode 1
+    versionName '1.0.0'
+
+    minSdkVersion (extOr('minSdkVersion', 24) as Integer)
+    targetSdkVersion (extOr('targetSdkVersion', 36) as Integer)
+
+    consumerProguardFiles 'consumer-rules.pro'
+  }
+
+  compileOptions {
+    sourceCompatibility JavaVersion.VERSION_17
+    targetCompatibility JavaVersion.VERSION_17
+  }
+
+  kotlinOptions {
+    jvmTarget = '17'
+  }
+
+  lint {
+    abortOnError false
+  }
+}

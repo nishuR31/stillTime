@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Colour-blind safe on both light and dark wallpaper. -->
+    <color name="widget_background">#F2F1EC</color>
+    <color name="widget_text">#1B1A17</color>
+    <color name="widget_text_muted">#5A554C</color>
+    <color name="widget_accent">#1F5F4B</color>
+    <color name="widget_accent_text">#FFFFFF</color>
+    <color name="widget_chip_background">#E4E1D8</color>
+    <color name="widget_chip_stroke">#C9C4B8</color>
+
+    <string name="widget_label">Stilltime</string>
+    <string name="widget_configure_label">Add Stilltime</string>
+    <string name="widget_description">Stilltime screen timeout widget</string>
+    <string name="widget_value_placeholder">—</string>
+
+    <string name="widget_status_ready">Screen timeout</string>
+    <string name="widget_status_no_permission">Permission needed</string>
+    <string name="widget_status_stay_awake">Stay Awake is on</string>
+    <string name="widget_status_changed">Changed elsewhere</string>
+
+    <string name="widget_open">Open Stilltime</string>
+    <string name="widget_stay_awake_toggle">Stay Awake</string>
+    <string name="widget_stay_awake_toggle_description">Toggle Stay Awake</string>
+
+    <string name="widget_preset_30s">Set screen timeout to 30 seconds</string>
+    <string name="widget_preset_1m">Set screen timeout to 1 minute</string>
+    <string name="widget_preset_5m">Set screen timeout to 5 minutes</string>
+    <string name="widget_preset_15m">Set screen timeout to 15 minutes</string>
+    <string name="widget_preset_description">Set screen timeout to %1$s</string>
+
+    <!--
+      A dotted style name implicitly inherits from the style named by its
+      prefix. `Widget.Preset` therefore needs a `Widget` base to exist, or AAPT
+      fails resource linking with "style/Widget not found".
+    -->
+    <style name="Widget" />
+
+    <style name="Widget.Preset">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/widget_text</item>
+        <item name="android:background">@drawable/widget_chip_background</item>
+    </style>
+
+</resources>

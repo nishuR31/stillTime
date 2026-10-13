@@ -1,0 +1,13 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+  <!--
+    Only WRITE_SETTINGS is required. It is declared here rather than being
+    injected by a config plugin so the module is self-describing.
+
+    Declaring it in a library manifest merges it into the app manifest.
+    Stilltime does NOT request INTERNET, ACCESS_NETWORK_STATE, or any
+    foreground-service, wake-lock or device-admin permission.
+  -->
+  <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+</manifest>
