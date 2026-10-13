@@ -3,7 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Stilltime — change your Android screen timeout without opening Settings</title>
+    <title>
+      Stilltime — change your Android screen timeout without opening Settings
+    </title>
     <meta
       name="description"
       content="Stilltime is a small offline Android app that changes how long your screen stays on. Turn a dial from 15 seconds to 1 hour, write it with a verified read-back, and see whether the device actually obeyed."
@@ -12,7 +14,10 @@
     <meta name="color-scheme" content="dark light" />
 
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Stilltime — your screen timeout, on a dial" />
+    <meta
+      property="og:title"
+      content="Stilltime — your screen timeout, on a dial"
+    />
     <meta
       property="og:description"
       content="Change the Android screen timeout without opening Settings. Offline, no account, no network permission."
@@ -30,9 +35,1992 @@
       rel="stylesheet"
     />
 
-        <style>
-/*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */
-@layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orient:inline) and (not (color:rgb(from red r g b)))){*,:before,:after,::backdrop{--tw-translate-x:0;--tw-translate-y:0;--tw-translate-z:0;--tw-rotate-x:initial;--tw-rotate-y:initial;--tw-rotate-z:initial;--tw-skew-x:initial;--tw-skew-y:initial;--tw-space-y-reverse:0;--tw-divide-y-reverse:0;--tw-border-style:solid;--tw-gradient-position:initial;--tw-gradient-from:#0000;--tw-gradient-via:#0000;--tw-gradient-to:#0000;--tw-gradient-stops:initial;--tw-gradient-via-stops:initial;--tw-gradient-from-position:0%;--tw-gradient-via-position:50%;--tw-gradient-to-position:100%;--tw-leading:initial;--tw-font-weight:initial;--tw-tracking:initial;--tw-shadow:0 0 #0000;--tw-shadow-color:initial;--tw-shadow-alpha:100%;--tw-inset-shadow:0 0 #0000;--tw-inset-shadow-color:initial;--tw-inset-shadow-alpha:100%;--tw-ring-color:initial;--tw-ring-shadow:0 0 #0000;--tw-inset-ring-color:initial;--tw-inset-ring-shadow:0 0 #0000;--tw-ring-inset:initial;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-offset-shadow:0 0 #0000;--tw-backdrop-blur:initial;--tw-backdrop-brightness:initial;--tw-backdrop-contrast:initial;--tw-backdrop-grayscale:initial;--tw-backdrop-hue-rotate:initial;--tw-backdrop-invert:initial;--tw-backdrop-opacity:initial;--tw-backdrop-saturate:initial;--tw-backdrop-sepia:initial;--tw-duration:initial}}}@layer theme{:root,:host{--font-sans:"Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;--color-white:#fff;--spacing:.25rem;--container-xs:20rem;--container-md:28rem;--container-lg:32rem;--container-xl:36rem;--container-2xl:42rem;--container-3xl:48rem;--container-4xl:56rem;--container-6xl:72rem;--text-xs:.75rem;--text-xs--line-height:calc(1 / .75);--text-sm:.875rem;--text-sm--line-height:calc(1.25 / .875);--text-lg:1.125rem;--text-lg--line-height:calc(1.75 / 1.125);--font-weight-medium:500;--font-weight-semibold:600;--font-weight-bold:700;--font-weight-extrabold:800;--tracking-tight:-.025em;--tracking-widest:.1em;--leading-relaxed:1.625;--radius-md:.375rem;--radius-lg:.5rem;--radius-xl:.75rem;--radius-2xl:1rem;--radius-3xl:1.5rem;--blur-xl:24px;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4, 0, .2, 1);--default-font-family:"Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;--default-mono-font-family:"JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace}}@layer base{*,:after,:before,::backdrop{box-sizing:border-box;border:0 solid;margin:0;padding:0}::file-selector-button{box-sizing:border-box;border:0 solid;margin:0;padding:0}html,:host{-webkit-text-size-adjust:100%;tab-size:4;line-height:1.5;font-family:var(--default-font-family,-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");font-feature-settings:var(--default-font-feature-settings,normal);font-variation-settings:var(--default-font-variation-settings,normal);-webkit-tap-highlight-color:transparent}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;-webkit-text-decoration:inherit;-webkit-text-decoration:inherit;-webkit-text-decoration:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:var(--default-mono-font-family,ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);font-feature-settings:var(--default-mono-font-feature-settings,normal);font-variation-settings:var(--default-mono-font-variation-settings,normal);font-size:1em}small{font-size:80%}sub,sup{vertical-align:baseline;font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}:-moz-focusring:where(:not(iframe)){outline:auto}progress{vertical-align:baseline}summary{display:list-item}ol,ul,menu{list-style:none}img,svg,video,canvas,audio,iframe,embed,object{vertical-align:middle;display:block}img,video{max-width:100%;height:auto}button,input,select,optgroup,textarea{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;opacity:1;background-color:#0000;border-radius:0}::file-selector-button{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;opacity:1;background-color:#0000;border-radius:0}:where(select:is([multiple],[size])) optgroup{font-weight:bolder}:where(select:is([multiple],[size])) optgroup option{padding-inline-start:20px}::file-selector-button{margin-inline-end:4px}::placeholder{opacity:1}@supports (not ((-webkit-appearance:-apple-pay-button))) or (contain-intrinsic-size:1px){::placeholder{color:currentColor}@supports (color:color-mix(in lab, red, red)){::placeholder{color:color-mix(in oklab, currentcolor 50%, transparent)}}}textarea{resize:vertical}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-date-and-time-value{min-height:1lh;text-align:inherit}::-webkit-datetime-edit{display:inline-flex}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-datetime-edit{padding-block:0}::-webkit-datetime-edit-year-field{padding-block:0}::-webkit-datetime-edit-month-field{padding-block:0}::-webkit-datetime-edit-day-field{padding-block:0}::-webkit-datetime-edit-hour-field{padding-block:0}::-webkit-datetime-edit-minute-field{padding-block:0}::-webkit-datetime-edit-second-field{padding-block:0}::-webkit-datetime-edit-millisecond-field{padding-block:0}::-webkit-datetime-edit-meridiem-field{padding-block:0}::-webkit-calendar-picker-indicator{line-height:1}:-moz-ui-invalid{box-shadow:none}button,input:where([type=button],[type=reset],[type=submit]){appearance:button}::file-selector-button{appearance:button}::-webkit-inner-spin-button{height:auto}::-webkit-outer-spin-button{height:auto}[hidden]:where(:not([hidden=until-found])){display:none!important}}@layer components;@layer utilities{.pointer-events-none{pointer-events:none}.sr-only{clip-path:inset(50%);white-space:nowrap;border-width:0;width:1px;height:1px;margin:-1px;padding:0;position:absolute;overflow:hidden}.absolute{position:absolute}.fixed{position:fixed}.relative{position:relative}.inset-0{inset:0}.inset-x-0{inset-inline:0}.top-0{top:0}.-z-10{z-index:calc(10 * -1)}.z-50{z-index:50}.mx-auto{margin-inline:auto}.mt-0\.5{margin-top:calc(var(--spacing) * .5)}.mt-1{margin-top:var(--spacing)}.mt-2{margin-top:calc(var(--spacing) * 2)}.mt-2\.5{margin-top:calc(var(--spacing) * 2.5)}.mt-4{margin-top:calc(var(--spacing) * 4)}.mt-5{margin-top:calc(var(--spacing) * 5)}.mt-6{margin-top:calc(var(--spacing) * 6)}.mt-8{margin-top:calc(var(--spacing) * 8)}.mt-9{margin-top:calc(var(--spacing) * 9)}.mt-10{margin-top:calc(var(--spacing) * 10)}.mt-12{margin-top:calc(var(--spacing) * 12)}.mt-14{margin-top:calc(var(--spacing) * 14)}.ml-2{margin-left:calc(var(--spacing) * 2)}.ml-auto{margin-left:auto}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.inline-flex{display:inline-flex}.size-1\.5{width:calc(var(--spacing) * 1.5);height:calc(var(--spacing) * 1.5)}.size-2\.5{width:calc(var(--spacing) * 2.5);height:calc(var(--spacing) * 2.5)}.size-4{width:calc(var(--spacing) * 4);height:calc(var(--spacing) * 4)}.size-4\.5{width:calc(var(--spacing) * 4.5);height:calc(var(--spacing) * 4.5)}.size-5{width:calc(var(--spacing) * 5);height:calc(var(--spacing) * 5)}.size-8{width:calc(var(--spacing) * 8);height:calc(var(--spacing) * 8)}.size-9{width:calc(var(--spacing) * 9);height:calc(var(--spacing) * 9)}.size-10{width:calc(var(--spacing) * 10);height:calc(var(--spacing) * 10)}.size-full{width:100%;height:100%}.h-9{height:calc(var(--spacing) * 9)}.h-12{height:calc(var(--spacing) * 12)}.h-13{height:calc(var(--spacing) * 13)}.h-\[300px\]{height:300px}.h-\[320px\]{height:320px}.h-\[420px\]{height:420px}.h-px{height:1px}.w-\[300px\]{width:300px}.w-\[320px\]{width:320px}.w-\[420px\]{width:420px}.w-full{width:100%}.max-w-2xl{max-width:var(--container-2xl)}.max-w-3xl{max-width:var(--container-3xl)}.max-w-4xl{max-width:var(--container-4xl)}.max-w-6xl{max-width:var(--container-6xl)}.max-w-lg{max-width:var(--container-lg)}.max-w-md{max-width:var(--container-md)}.max-w-xl{max-width:var(--container-xl)}.max-w-xs{max-width:var(--container-xs)}.flex-1{flex:1}.shrink-0{flex-shrink:0}.-translate-x-full{--tw-translate-x:-100%;translate:var(--tw-translate-x) var(--tw-translate-y)}.transform{transform:var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,)}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.place-items-center{place-items:center}.items-baseline{align-items:baseline}.items-center{align-items:center}.items-start{align-items:flex-start}.justify-between{justify-content:space-between}.justify-center{justify-content:center}.gap-1{gap:var(--spacing)}.gap-1\.5{gap:calc(var(--spacing) * 1.5)}.gap-2{gap:calc(var(--spacing) * 2)}.gap-2\.5{gap:calc(var(--spacing) * 2.5)}.gap-3{gap:calc(var(--spacing) * 3)}.gap-4{gap:calc(var(--spacing) * 4)}.gap-5{gap:calc(var(--spacing) * 5)}.gap-8{gap:calc(var(--spacing) * 8)}.gap-14{gap:calc(var(--spacing) * 14)}.gap-16{gap:calc(var(--spacing) * 16)}.gap-px{gap:1px}:where(.space-y-1\.5>:not(:last-child)){--tw-space-y-reverse:0;margin-block-start:calc(calc(var(--spacing) * 1.5) * var(--tw-space-y-reverse));margin-block-end:calc(calc(var(--spacing) * 1.5) * calc(1 - var(--tw-space-y-reverse)))}:where(.space-y-3>:not(:last-child)){--tw-space-y-reverse:0;margin-block-start:calc(calc(var(--spacing) * 3) * var(--tw-space-y-reverse));margin-block-end:calc(calc(var(--spacing) * 3) * calc(1 - var(--tw-space-y-reverse)))}:where(.space-y-3\.5>:not(:last-child)){--tw-space-y-reverse:0;margin-block-start:calc(calc(var(--spacing) * 3.5) * var(--tw-space-y-reverse));margin-block-end:calc(calc(var(--spacing) * 3.5) * calc(1 - var(--tw-space-y-reverse)))}:where(.space-y-4>:not(:last-child)){--tw-space-y-reverse:0;margin-block-start:calc(calc(var(--spacing) * 4) * var(--tw-space-y-reverse));margin-block-end:calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-y-reverse)))}.gap-x-10{column-gap:calc(var(--spacing) * 10)}.gap-y-2\.5{row-gap:calc(var(--spacing) * 2.5)}:where(.divide-y>:not(:last-child)){--tw-divide-y-reverse:0;border-bottom-style:var(--tw-border-style);border-top-style:var(--tw-border-style);border-top-width:calc(1px * var(--tw-divide-y-reverse));border-bottom-width:calc(1px * calc(1 - var(--tw-divide-y-reverse)))}:where(.divide-line-soft>:not(:last-child)){border-color:var(--line-soft)}.overflow-hidden{overflow:hidden}.rounded-2xl{border-radius:var(--radius-2xl)}.rounded-3xl{border-radius:var(--radius-3xl)}.rounded-full{border-radius:3.40282e38px}.rounded-lg{border-radius:var(--radius-lg)}.rounded-md{border-radius:var(--radius-md)}.rounded-xl{border-radius:var(--radius-xl)}.border{border-style:var(--tw-border-style);border-width:1px}.border-y{border-block-style:var(--tw-border-style);border-block-width:1px}.border-t{border-top-style:var(--tw-border-style);border-top-width:1px}.border-b{border-bottom-style:var(--tw-border-style);border-bottom-width:1px}.border-accent\/30{border-color:var(--accent)}@supports (color:color-mix(in lab, red, red)){.border-accent\/30{border-color:color-mix(in oklab, var(--accent) 30%, transparent)}}.border-accent\/40{border-color:var(--accent)}@supports (color:color-mix(in lab, red, red)){.border-accent\/40{border-color:color-mix(in oklab, var(--accent) 40%, transparent)}}.border-line{border-color:var(--line)}.border-line-soft,.border-line-soft\/80{border-color:var(--line-soft)}@supports (color:color-mix(in lab, red, red)){.border-line-soft\/80{border-color:color-mix(in oklab, var(--line-soft) 80%, transparent)}}.bg-accent{background-color:var(--accent)}.bg-accent-soft{background-color:var(--accent-soft)}.bg-accent\/8{background-color:var(--accent)}@supports (color:color-mix(in lab, red, red)){.bg-accent\/8{background-color:color-mix(in oklab, var(--accent) 8%, transparent)}}.bg-accent\/14{background-color:var(--accent)}@supports (color:color-mix(in lab, red, red)){.bg-accent\/14{background-color:color-mix(in oklab, var(--accent) 14%, transparent)}}.bg-accent\/16{background-color:var(--accent)}@supports (color:color-mix(in lab, red, red)){.bg-accent\/16{background-color:color-mix(in oklab, var(--accent) 16%, transparent)}}.bg-accent\/70{background-color:var(--accent)}@supports (color:color-mix(in lab, red, red)){.bg-accent\/70{background-color:color-mix(in oklab, var(--accent) 70%, transparent)}}.bg-bg{background-color:var(--bg)}.bg-bg-soft{background-color:var(--bg-soft)}.bg-bg\/80{background-color:var(--bg)}@supports (color:color-mix(in lab, red, red)){.bg-bg\/80{background-color:color-mix(in oklab, var(--bg) 80%, transparent)}}.bg-danger\/70{background-color:var(--danger)}@supports (color:color-mix(in lab, red, red)){.bg-danger\/70{background-color:color-mix(in oklab, var(--danger) 70%, transparent)}}.bg-line{background-color:var(--line)}.bg-surface{background-color:var(--surface)}.bg-surface-2{background-color:var(--surface-2)}.bg-warn\/70{background-color:var(--warn)}@supports (color:color-mix(in lab, red, red)){.bg-warn\/70{background-color:color-mix(in oklab, var(--warn) 70%, transparent)}}.bg-white\/25{background-color:#ffffff40}@supports (color:color-mix(in lab, red, red)){.bg-white\/25{background-color:color-mix(in oklab, var(--color-white) 25%, transparent)}}.bg-gradient-to-r{--tw-gradient-position:to right in oklab;background-image:linear-gradient(var(--tw-gradient-stops))}.from-transparent{--tw-gradient-from:transparent;--tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.via-accent\/50{--tw-gradient-via:var(--accent)}@supports (color:color-mix(in lab, red, red)){.via-accent\/50{--tw-gradient-via:color-mix(in oklab, var(--accent) 50%, transparent)}}.via-accent\/50{--tw-gradient-via-stops:var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-via) var(--tw-gradient-via-position), var(--tw-gradient-to) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-via-stops)}.to-transparent{--tw-gradient-to:transparent;--tw-gradient-stops:var(--tw-gradient-via-stops,var(--tw-gradient-position), var(--tw-gradient-from) var(--tw-gradient-from-position), var(--tw-gradient-to) var(--tw-gradient-to-position))}.p-4{padding:calc(var(--spacing) * 4)}.p-5{padding:calc(var(--spacing) * 5)}.p-6{padding:calc(var(--spacing) * 6)}.p-7{padding:calc(var(--spacing) * 7)}.px-2{padding-inline:calc(var(--spacing) * 2)}.px-2\.5{padding-inline:calc(var(--spacing) * 2.5)}.px-3{padding-inline:calc(var(--spacing) * 3)}.px-3\.5{padding-inline:calc(var(--spacing) * 3.5)}.px-4{padding-inline:calc(var(--spacing) * 4)}.px-5{padding-inline:calc(var(--spacing) * 5)}.px-6{padding-inline:calc(var(--spacing) * 6)}.px-7{padding-inline:calc(var(--spacing) * 7)}.py-0\.5{padding-block:calc(var(--spacing) * .5)}.py-1{padding-block:var(--spacing)}.py-1\.5{padding-block:calc(var(--spacing) * 1.5)}.py-2{padding-block:calc(var(--spacing) * 2)}.py-3\.5{padding-block:calc(var(--spacing) * 3.5)}.py-4{padding-block:calc(var(--spacing) * 4)}.py-5{padding-block:calc(var(--spacing) * 5)}.py-12{padding-block:calc(var(--spacing) * 12)}.py-14{padding-block:calc(var(--spacing) * 14)}.py-20{padding-block:calc(var(--spacing) * 20)}.pt-1{padding-top:var(--spacing)}.pt-6{padding-top:calc(var(--spacing) * 6)}.pt-8{padding-top:calc(var(--spacing) * 8)}.pt-32{padding-top:calc(var(--spacing) * 32)}.pb-1{padding-bottom:var(--spacing)}.pb-4{padding-bottom:calc(var(--spacing) * 4)}.pb-5{padding-bottom:calc(var(--spacing) * 5)}.pb-6{padding-bottom:calc(var(--spacing) * 6)}.pb-20{padding-bottom:calc(var(--spacing) * 20)}.text-center{text-align:center}.text-left{text-align:left}.font-mono{font-family:JetBrains Mono,ui-monospace,SFMono-Regular,Menlo,monospace}.font-sans{font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Roboto,sans-serif}.text-lg{font-size:var(--text-lg);line-height:var(--tw-leading,var(--text-lg--line-height))}.text-xs{font-size:var(--text-xs);line-height:var(--tw-leading,var(--text-xs--line-height))}.text-\[8px\]{font-size:8px}.text-\[9px\]{font-size:9px}.text-\[10\.5px\]{font-size:10.5px}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-\[12\.5px\]{font-size:12.5px}.text-\[12px\]{font-size:12px}.text-\[13\.5px\]{font-size:13.5px}.text-\[13px\]{font-size:13px}.text-\[14\.5px\]{font-size:14.5px}.text-\[14px\]{font-size:14px}.text-\[15\.5px\]{font-size:15.5px}.text-\[15px\]{font-size:15px}.text-\[16\.5px\]{font-size:16.5px}.text-\[17px\]{font-size:17px}.text-\[26px\]{font-size:26px}.text-\[clamp\(1\.8rem\,4\.4vw\,2\.6rem\)\]{font-size:clamp(1.8rem,4.4vw,2.6rem)}.text-\[clamp\(1\.9rem\,4vw\,2\.7rem\)\]{font-size:clamp(1.9rem,4vw,2.7rem)}.text-\[clamp\(2\.4rem\,6\.2vw\,4\.1rem\)\]{font-size:clamp(2.4rem,6.2vw,4.1rem)}.leading-\[1\.1\]{--tw-leading:1.1;line-height:1.1}.leading-\[1\.03\]{--tw-leading:1.03;line-height:1.03}.leading-\[1\.08\]{--tw-leading:1.08;line-height:1.08}.leading-none{--tw-leading:1;line-height:1}.leading-relaxed{--tw-leading:var(--leading-relaxed);line-height:var(--leading-relaxed)}.font-bold{--tw-font-weight:var(--font-weight-bold);font-weight:var(--font-weight-bold)}.font-extrabold{--tw-font-weight:var(--font-weight-extrabold);font-weight:var(--font-weight-extrabold)}.font-medium{--tw-font-weight:var(--font-weight-medium);font-weight:var(--font-weight-medium)}.font-semibold{--tw-font-weight:var(--font-weight-semibold);font-weight:var(--font-weight-semibold)}.tracking-\[-0\.03em\]{--tw-tracking:-.03em;letter-spacing:-.03em}.tracking-\[-0\.035em\]{--tw-tracking:-.035em;letter-spacing:-.035em}.tracking-\[0\.16em\]{--tw-tracking:.16em;letter-spacing:.16em}.tracking-tight{--tw-tracking:var(--tracking-tight);letter-spacing:var(--tracking-tight)}.tracking-widest{--tw-tracking:var(--tracking-widest);letter-spacing:var(--tracking-widest)}.text-\[\#062018\]{color:#062018}.text-accent{color:var(--accent)}.text-accent-ink{color:var(--accent-ink)}.text-danger{color:var(--danger)}.text-ink{color:var(--ink)}.text-ink-faint{color:var(--ink-faint)}.text-ink-muted{color:var(--ink-muted)}.text-warn{color:var(--warn)}.text-white{color:var(--color-white)}.text-white\/25{color:#ffffff40}@supports (color:color-mix(in lab, red, red)){.text-white\/25{color:color-mix(in oklab, var(--color-white) 25%, transparent)}}.text-white\/30{color:#ffffff4d}@supports (color:color-mix(in lab, red, red)){.text-white\/30{color:color-mix(in oklab, var(--color-white) 30%, transparent)}}.text-white\/35{color:#ffffff59}@supports (color:color-mix(in lab, red, red)){.text-white\/35{color:color-mix(in oklab, var(--color-white) 35%, transparent)}}.text-white\/45{color:#ffffff73}@supports (color:color-mix(in lab, red, red)){.text-white\/45{color:color-mix(in oklab, var(--color-white) 45%, transparent)}}.text-white\/55{color:#ffffff8c}@supports (color:color-mix(in lab, red, red)){.text-white\/55{color:color-mix(in oklab, var(--color-white) 55%, transparent)}}.uppercase{text-transform:uppercase}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-0{opacity:0}.opacity-55{opacity:.55}.shadow-none{--tw-shadow:0 0 #0000;box-shadow:var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow)}.backdrop-blur-xl{--tw-backdrop-blur:blur(var(--blur-xl));-webkit-backdrop-filter:var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);backdrop-filter:var(--tw-backdrop-blur,) var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,) var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,) var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,) var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,)}.transition-colors{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-gradient-from,--tw-gradient-via,--tw-gradient-to;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.transition-opacity{transition-property:opacity;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.transition-transform{transition-property:transform,translate,scale,rotate;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.duration-200{--tw-duration:.2s;transition-duration:.2s}.duration-500{--tw-duration:.5s;transition-duration:.5s}.duration-700{--tw-duration:.7s;transition-duration:.7s}@media (hover:hover){.group-hover\:translate-x-full:is(:where(.group):hover *){--tw-translate-x:100%;translate:var(--tw-translate-x) var(--tw-translate-y)}.group-hover\:rotate-\[140deg\]:is(:where(.group):hover *){rotate:140deg}.group-hover\:opacity-100:is(:where(.group):hover *){opacity:1}.hover\:-translate-y-0\.5:hover{--tw-translate-y:calc(var(--spacing) * -.5);translate:var(--tw-translate-x) var(--tw-translate-y)}.hover\:-translate-y-px:hover{--tw-translate-y:-1px;translate:var(--tw-translate-x) var(--tw-translate-y)}.hover\:border-ink-faint:hover{border-color:var(--ink-faint)}.hover\:bg-surface-2:hover{background-color:var(--surface-2)}.hover\:text-ink:hover{color:var(--ink)}.hover\:opacity-70:hover{opacity:.7}}.focus\:not-sr-only:focus{clip-path:none;white-space:normal;width:auto;height:auto;margin:0;padding:0;position:static;overflow:visible}.focus\:fixed:focus{position:fixed}.focus\:top-4:focus{top:calc(var(--spacing) * 4)}.focus\:left-4:focus{left:calc(var(--spacing) * 4)}.focus\:z-\[70\]:focus{z-index:70}.focus\:rounded-lg:focus{border-radius:var(--radius-lg)}.focus\:bg-accent:focus{background-color:var(--accent)}.focus\:px-4:focus{padding-inline:calc(var(--spacing) * 4)}.focus\:py-2:focus{padding-block:calc(var(--spacing) * 2)}.focus\:text-sm:focus{font-size:var(--text-sm);line-height:var(--tw-leading,var(--text-sm--line-height))}.focus\:font-semibold:focus{--tw-font-weight:var(--font-weight-semibold);font-weight:var(--font-weight-semibold)}.focus\:text-accent-ink:focus{color:var(--accent-ink)}.active\:translate-y-0:active{--tw-translate-y:0px;translate:var(--tw-translate-x) var(--tw-translate-y)}@media (min-width:40rem){.sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.sm\:flex-row{flex-direction:row}.sm\:items-center{align-items:center}.sm\:items-start{align-items:flex-start}.sm\:justify-between{justify-content:space-between}.sm\:px-8{padding-inline:calc(var(--spacing) * 8)}.sm\:px-14{padding-inline:calc(var(--spacing) * 14)}.sm\:py-24{padding-block:calc(var(--spacing) * 24)}.sm\:py-28{padding-block:calc(var(--spacing) * 28)}.sm\:pt-40{padding-top:calc(var(--spacing) * 40)}.sm\:pb-28{padding-bottom:calc(var(--spacing) * 28)}}@media (min-width:48rem){.md\:ml-0{margin-left:0}.md\:flex{display:flex}.md\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}}@media (min-width:64rem){.lg\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.lg\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.lg\:grid-cols-\[0\.95fr_1\.05fr\]{grid-template-columns:.95fr 1.05fr}.lg\:grid-cols-\[1\.15fr_0\.85fr\]{grid-template-columns:1.15fr .85fr}.lg\:items-center{align-items:center}.lg\:justify-end{justify-content:flex-end}}}:root{--bg:#0e100e;--bg-soft:#141614;--surface:#181b18;--surface-2:#1f231f;--line:#2b302b;--line-soft:#222622;--ink:#f2f4f0;--ink-muted:#a8b0a6;--ink-faint:#757d73;--accent:#6fd3a8;--accent-ink:#062018;--accent-soft:#14332a;--warn:#e0b15a;--danger:#f0857f;--grid-line:#6fd3a812;--grain-opacity:.035;--phone-screen:#101310;--shadow-strong:0 40px 90px -30px #000000e6;color-scheme:dark}[data-theme=light]{--bg:#faf9f6;--bg-soft:#f2f1ec;--surface:#fff;--surface-2:#f4f3ee;--line:#e2dfd6;--line-soft:#ebe9e2;--ink:#16181a;--ink-muted:#55595c;--ink-faint:#83878a;--accent:#14705a;--accent-ink:#fff;--accent-soft:#e0efe9;--warn:#8a5a00;--danger:#a3282b;--grid-line:#14705a0f;--grain-opacity:.02;--phone-screen:#14171a;--shadow-strong:0 40px 80px -34px #14181459;color-scheme:light}html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}body{background-color:var(--bg);color:var(--ink);font-family:var(--font-sans);-webkit-font-smoothing:antialiased;text-rendering:optimizelegibility;overflow-x:hidden}.dark-only,.light-only{display:none}[data-theme=dark] .dark-only,[data-theme=light] .light-only{display:block}::selection{background:var(--accent);color:var(--accent-ink)}:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:4px}.grid-bg{background-image:linear-gradient(var(--grid-line) 1px, transparent 1px), linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);background-size:64px 64px;-webkit-mask-image:radial-gradient(80% 60% at 50% 0,#000 40%,#0000 100%);mask-image:radial-gradient(80% 60% at 50% 0,#000 40%,#0000 100%)}.grain:after{content:"";pointer-events:none;z-index:60;opacity:var(--grain-opacity);background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");position:fixed;inset:0}.stage{perspective:1400px;perspective-origin:50% 40%}.phone{aspect-ratio:9/19;width:280px;transform-style:preserve-3d;transform:rotateX(var(--rx,0deg)) rotateY(var(--ry,0deg)) translateZ(0);will-change:transform;border-radius:42px;transition:transform .4s cubic-bezier(.22,1,.36,1);position:relative}.phone-rim{border-radius:inherit;background:linear-gradient(150deg, var(--ink), var(--ink) 28%, var(--ink) 55%, var(--ink) 78%, var(--ink));padding:3px;position:absolute;inset:0}@supports (color:color-mix(in lab, red, red)){.phone-rim{background:linear-gradient(150deg, color-mix(in oklab, var(--ink) 45%, transparent), color-mix(in oklab, var(--ink) 8%, transparent) 28%, color-mix(in oklab, var(--ink) 30%, transparent) 55%, color-mix(in oklab, var(--ink) 6%, transparent) 78%, color-mix(in oklab, var(--ink) 35%, transparent))}}.phone-rim{box-shadow:var(--shadow-strong);transform:translateZ(0)}.phone-screen{background:var(--phone-screen);border-radius:39px;flex-direction:column;display:flex;position:absolute;inset:3px;overflow:hidden;transform:translateZ(18px)}.phone-edge{border-radius:inherit;background:linear-gradient(90deg, var(--ink), transparent 40%);position:absolute;inset:0;transform:translateZ(-14px)translate(-10px)}@supports (color:color-mix(in lab, red, red)){.phone-edge{background:linear-gradient(90deg, color-mix(in oklab, var(--ink) 16%, transparent), transparent 40%)}}.phone-edge{filter:blur(1px)}.phone-float{animation:7s ease-in-out infinite float}@keyframes float{0%,to{transform:translateY(0)}50%{transform:translateY(-14px)}}.notch{z-index:3;background:#000;border-radius:999px;width:84px;height:22px;position:absolute;top:10px;left:50%;transform:translate(-50%)}.dial{aspect-ratio:1;background:conic-gradient(from -90deg, var(--accent) 0turn, var(--accent) var(--fill,.32turn), var(--ink) var(--fill,.32turn), var(--ink) 1turn);border-radius:50%;width:168px;position:relative}@supports (color:color-mix(in lab, red, red)){.dial{background:conic-gradient(from -90deg, var(--accent) 0turn, var(--accent) var(--fill,.32turn), color-mix(in oklab, var(--ink) 12%, transparent) var(--fill,.32turn), color-mix(in oklab, var(--ink) 12%, transparent) 1turn)}}.dial{-webkit-mask:radial-gradient(circle,#0000 0 61%,#000 62%);mask:radial-gradient(circle,#0000 0 61%,#000 62%)}.dial-knob{background:var(--accent);width:14px;height:14px;box-shadow:0 0 0 4px var(--accent);border-radius:50%;position:absolute}@supports (color:color-mix(in lab, red, red)){.dial-knob{box-shadow:0 0 0 4px color-mix(in oklab, var(--accent) 22%, transparent)}}.dial-knob{transform:translate(-50%,-50%)}.tick-layer{position:absolute;inset:0}.tick{background:var(--ink);border-radius:1px;width:2px;height:5px;position:absolute}@supports (color:color-mix(in lab, red, red)){.tick{background:color-mix(in oklab, var(--ink) 28%, transparent)}}.tick{transform-origin:50% 100%}.tilt{transform-style:preserve-3d;transform:perspective(900px) rotateX(var(--tx,0deg)) rotateY(var(--ty,0deg)) translateZ(0);transition:transform .3s cubic-bezier(.22,1,.36,1),border-color .3s,background-color .3s}.reveal{opacity:0;transition:opacity .7s cubic-bezier(.22,1,.36,1),transform .7s cubic-bezier(.22,1,.36,1);transform:translateY(22px)}.reveal.is-visible{opacity:1;transform:none}.orb{filter:blur(70px);pointer-events:none;will-change:transform;border-radius:50%;position:absolute}.pulse-ring{animation:2.6s ease-out infinite pulse-ring}@keyframes pulse-ring{0%{opacity:.55;transform:scale(.85)}to{opacity:0;transform:scale(1.35)}}.acc-panel{grid-template-rows:0fr;transition:grid-template-rows .38s cubic-bezier(.22,1,.36,1);display:grid}.acc-panel>div{overflow:hidden}.acc-item[data-open=true] .acc-panel{grid-template-rows:1fr}.acc-item[data-open=true] .acc-chevron{transform:rotate(180deg)}.acc-chevron{transition:transform .38s cubic-bezier(.22,1,.36,1)}@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,:before,:after{transition-duration:.001ms!important;animation-duration:.001ms!important;animation-iteration-count:1!important}.reveal{opacity:1;transform:none}.phone,.tilt{transform:none!important}}@property --tw-translate-x{syntax:"*";inherits:false;initial-value:0}@property --tw-translate-y{syntax:"*";inherits:false;initial-value:0}@property --tw-translate-z{syntax:"*";inherits:false;initial-value:0}@property --tw-rotate-x{syntax:"*";inherits:false}@property --tw-rotate-y{syntax:"*";inherits:false}@property --tw-rotate-z{syntax:"*";inherits:false}@property --tw-skew-x{syntax:"*";inherits:false}@property --tw-skew-y{syntax:"*";inherits:false}@property --tw-space-y-reverse{syntax:"*";inherits:false;initial-value:0}@property --tw-divide-y-reverse{syntax:"*";inherits:false;initial-value:0}@property --tw-border-style{syntax:"*";inherits:false;initial-value:solid}@property --tw-gradient-position{syntax:"*";inherits:false}@property --tw-gradient-from{syntax:"<color>";inherits:false;initial-value:#0000}@property --tw-gradient-via{syntax:"<color>";inherits:false;initial-value:#0000}@property --tw-gradient-to{syntax:"<color>";inherits:false;initial-value:#0000}@property --tw-gradient-stops{syntax:"*";inherits:false}@property --tw-gradient-via-stops{syntax:"*";inherits:false}@property --tw-gradient-from-position{syntax:"<length-percentage>";inherits:false;initial-value:0%}@property --tw-gradient-via-position{syntax:"<length-percentage>";inherits:false;initial-value:50%}@property --tw-gradient-to-position{syntax:"<length-percentage>";inherits:false;initial-value:100%}@property --tw-leading{syntax:"*";inherits:false}@property --tw-font-weight{syntax:"*";inherits:false}@property --tw-tracking{syntax:"*";inherits:false}@property --tw-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-shadow-color{syntax:"*";inherits:false}@property --tw-shadow-alpha{syntax:"<percentage>";inherits:false;initial-value:100%}@property --tw-inset-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-inset-shadow-color{syntax:"*";inherits:false}@property --tw-inset-shadow-alpha{syntax:"<percentage>";inherits:false;initial-value:100%}@property --tw-ring-color{syntax:"*";inherits:false}@property --tw-ring-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-inset-ring-color{syntax:"*";inherits:false}@property --tw-inset-ring-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-ring-inset{syntax:"*";inherits:false}@property --tw-ring-offset-width{syntax:"<length>";inherits:false;initial-value:0}@property --tw-ring-offset-color{syntax:"*";inherits:false;initial-value:#fff}@property --tw-ring-offset-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-backdrop-blur{syntax:"*";inherits:false}@property --tw-backdrop-brightness{syntax:"*";inherits:false}@property --tw-backdrop-contrast{syntax:"*";inherits:false}@property --tw-backdrop-grayscale{syntax:"*";inherits:false}@property --tw-backdrop-hue-rotate{syntax:"*";inherits:false}@property --tw-backdrop-invert{syntax:"*";inherits:false}@property --tw-backdrop-opacity{syntax:"*";inherits:false}@property --tw-backdrop-saturate{syntax:"*";inherits:false}@property --tw-backdrop-sepia{syntax:"*";inherits:false}@property --tw-duration{syntax:"*";inherits:false}
+    <style>
+      /*! tailwindcss v4.3.3 | MIT License | https://tailwindcss.com */
+      @layer properties {
+        @supports (((-webkit-hyphens: none)) and (not (margin-trim: inline))) or
+          ((-moz-orient: inline) and (not (color: rgb(from red r g b)))) {
+          *,
+          :before,
+          :after,
+          ::backdrop {
+            --tw-translate-x: 0;
+            --tw-translate-y: 0;
+            --tw-translate-z: 0;
+            --tw-rotate-x: initial;
+            --tw-rotate-y: initial;
+            --tw-rotate-z: initial;
+            --tw-skew-x: initial;
+            --tw-skew-y: initial;
+            --tw-space-y-reverse: 0;
+            --tw-divide-y-reverse: 0;
+            --tw-border-style: solid;
+            --tw-gradient-position: initial;
+            --tw-gradient-from: #0000;
+            --tw-gradient-via: #0000;
+            --tw-gradient-to: #0000;
+            --tw-gradient-stops: initial;
+            --tw-gradient-via-stops: initial;
+            --tw-gradient-from-position: 0%;
+            --tw-gradient-via-position: 50%;
+            --tw-gradient-to-position: 100%;
+            --tw-leading: initial;
+            --tw-font-weight: initial;
+            --tw-tracking: initial;
+            --tw-shadow: 0 0 #0000;
+            --tw-shadow-color: initial;
+            --tw-shadow-alpha: 100%;
+            --tw-inset-shadow: 0 0 #0000;
+            --tw-inset-shadow-color: initial;
+            --tw-inset-shadow-alpha: 100%;
+            --tw-ring-color: initial;
+            --tw-ring-shadow: 0 0 #0000;
+            --tw-inset-ring-color: initial;
+            --tw-inset-ring-shadow: 0 0 #0000;
+            --tw-ring-inset: initial;
+            --tw-ring-offset-width: 0px;
+            --tw-ring-offset-color: #fff;
+            --tw-ring-offset-shadow: 0 0 #0000;
+            --tw-backdrop-blur: initial;
+            --tw-backdrop-brightness: initial;
+            --tw-backdrop-contrast: initial;
+            --tw-backdrop-grayscale: initial;
+            --tw-backdrop-hue-rotate: initial;
+            --tw-backdrop-invert: initial;
+            --tw-backdrop-opacity: initial;
+            --tw-backdrop-saturate: initial;
+            --tw-backdrop-sepia: initial;
+            --tw-duration: initial;
+          }
+        }
+      }
+      @layer theme {
+        :root,
+        :host {
+          --font-sans:
+            "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+            Roboto, sans-serif;
+          --color-white: #fff;
+          --spacing: 0.25rem;
+          --container-xs: 20rem;
+          --container-md: 28rem;
+          --container-lg: 32rem;
+          --container-xl: 36rem;
+          --container-2xl: 42rem;
+          --container-3xl: 48rem;
+          --container-4xl: 56rem;
+          --container-6xl: 72rem;
+          --text-xs: 0.75rem;
+          --text-xs--line-height: calc(1 / 0.75);
+          --text-sm: 0.875rem;
+          --text-sm--line-height: calc(1.25 / 0.875);
+          --text-lg: 1.125rem;
+          --text-lg--line-height: calc(1.75 / 1.125);
+          --font-weight-medium: 500;
+          --font-weight-semibold: 600;
+          --font-weight-bold: 700;
+          --font-weight-extrabold: 800;
+          --tracking-tight: -0.025em;
+          --tracking-widest: 0.1em;
+          --leading-relaxed: 1.625;
+          --radius-md: 0.375rem;
+          --radius-lg: 0.5rem;
+          --radius-xl: 0.75rem;
+          --radius-2xl: 1rem;
+          --radius-3xl: 1.5rem;
+          --blur-xl: 24px;
+          --default-transition-duration: 0.15s;
+          --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          --default-font-family:
+            "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+            Roboto, sans-serif;
+          --default-mono-font-family:
+            "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+        }
+      }
+      @layer base {
+        *,
+        :after,
+        :before,
+        ::backdrop {
+          box-sizing: border-box;
+          border: 0 solid;
+          margin: 0;
+          padding: 0;
+        }
+        ::file-selector-button {
+          box-sizing: border-box;
+          border: 0 solid;
+          margin: 0;
+          padding: 0;
+        }
+        html,
+        :host {
+          -webkit-text-size-adjust: 100%;
+          tab-size: 4;
+          line-height: 1.5;
+          font-family: var(
+            --default-font-family,
+            -apple-system,
+            BlinkMacSystemFont,
+            "Segoe UI",
+            Roboto,
+            "Helvetica Neue",
+            "Noto Sans",
+            Arial,
+            sans-serif,
+            "Apple Color Emoji",
+            "Segoe UI Emoji",
+            "Segoe UI Symbol",
+            "Noto Color Emoji"
+          );
+          font-feature-settings: var(--default-font-feature-settings, normal);
+          font-variation-settings: var(
+            --default-font-variation-settings,
+            normal
+          );
+          -webkit-tap-highlight-color: transparent;
+        }
+        hr {
+          height: 0;
+          color: inherit;
+          border-top-width: 1px;
+        }
+        abbr:where([title]) {
+          -webkit-text-decoration: underline dotted;
+          text-decoration: underline dotted;
+        }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          font-size: inherit;
+          font-weight: inherit;
+        }
+        a {
+          color: inherit;
+          -webkit-text-decoration: inherit;
+          -webkit-text-decoration: inherit;
+          -webkit-text-decoration: inherit;
+          text-decoration: inherit;
+        }
+        b,
+        strong {
+          font-weight: bolder;
+        }
+        code,
+        kbd,
+        samp,
+        pre {
+          font-family: var(
+            --default-mono-font-family,
+            ui-monospace,
+            SFMono-Regular,
+            Menlo,
+            Monaco,
+            Consolas,
+            "Liberation Mono",
+            "Courier New",
+            monospace
+          );
+          font-feature-settings: var(
+            --default-mono-font-feature-settings,
+            normal
+          );
+          font-variation-settings: var(
+            --default-mono-font-variation-settings,
+            normal
+          );
+          font-size: 1em;
+        }
+        small {
+          font-size: 80%;
+        }
+        sub,
+        sup {
+          vertical-align: baseline;
+          font-size: 75%;
+          line-height: 0;
+          position: relative;
+        }
+        sub {
+          bottom: -0.25em;
+        }
+        sup {
+          top: -0.5em;
+        }
+        table {
+          text-indent: 0;
+          border-color: inherit;
+          border-collapse: collapse;
+        }
+        :-moz-focusring:where(:not(iframe)) {
+          outline: auto;
+        }
+        progress {
+          vertical-align: baseline;
+        }
+        summary {
+          display: list-item;
+        }
+        ol,
+        ul,
+        menu {
+          list-style: none;
+        }
+        img,
+        svg,
+        video,
+        canvas,
+        audio,
+        iframe,
+        embed,
+        object {
+          vertical-align: middle;
+          display: block;
+        }
+        img,
+        video {
+          max-width: 100%;
+          height: auto;
+        }
+        button,
+        input,
+        select,
+        optgroup,
+        textarea {
+          font: inherit;
+          font-feature-settings: inherit;
+          font-variation-settings: inherit;
+          letter-spacing: inherit;
+          color: inherit;
+          opacity: 1;
+          background-color: #0000;
+          border-radius: 0;
+        }
+        ::file-selector-button {
+          font: inherit;
+          font-feature-settings: inherit;
+          font-variation-settings: inherit;
+          letter-spacing: inherit;
+          color: inherit;
+          opacity: 1;
+          background-color: #0000;
+          border-radius: 0;
+        }
+        :where(select:is([multiple], [size])) optgroup {
+          font-weight: bolder;
+        }
+        :where(select:is([multiple], [size])) optgroup option {
+          padding-inline-start: 20px;
+        }
+        ::file-selector-button {
+          margin-inline-end: 4px;
+        }
+        ::placeholder {
+          opacity: 1;
+        }
+        @supports (not ((-webkit-appearance: -apple-pay-button))) or
+          (contain-intrinsic-size: 1px) {
+          ::placeholder {
+            color: currentColor;
+          }
+          @supports (color: color-mix(in lab, red, red)) {
+            ::placeholder {
+              color: color-mix(in oklab, currentcolor 50%, transparent);
+            }
+          }
+        }
+        textarea {
+          resize: vertical;
+        }
+        ::-webkit-search-decoration {
+          -webkit-appearance: none;
+        }
+        ::-webkit-date-and-time-value {
+          min-height: 1lh;
+          text-align: inherit;
+        }
+        ::-webkit-datetime-edit {
+          display: inline-flex;
+        }
+        ::-webkit-datetime-edit-fields-wrapper {
+          padding: 0;
+        }
+        ::-webkit-datetime-edit {
+          padding-block: 0;
+        }
+        ::-webkit-datetime-edit-year-field {
+          padding-block: 0;
+        }
+        ::-webkit-datetime-edit-month-field {
+          padding-block: 0;
+        }
+        ::-webkit-datetime-edit-day-field {
+          padding-block: 0;
+        }
+        ::-webkit-datetime-edit-hour-field {
+          padding-block: 0;
+        }
+        ::-webkit-datetime-edit-minute-field {
+          padding-block: 0;
+        }
+        ::-webkit-datetime-edit-second-field {
+          padding-block: 0;
+        }
+        ::-webkit-datetime-edit-millisecond-field {
+          padding-block: 0;
+        }
+        ::-webkit-datetime-edit-meridiem-field {
+          padding-block: 0;
+        }
+        ::-webkit-calendar-picker-indicator {
+          line-height: 1;
+        }
+        :-moz-ui-invalid {
+          box-shadow: none;
+        }
+        button,
+        input:where([type="button"], [type="reset"], [type="submit"]) {
+          appearance: button;
+        }
+        ::file-selector-button {
+          appearance: button;
+        }
+        ::-webkit-inner-spin-button {
+          height: auto;
+        }
+        ::-webkit-outer-spin-button {
+          height: auto;
+        }
+        [hidden]:where(:not([hidden="until-found"])) {
+          display: none !important;
+        }
+      }
+      @layer components;
+      @layer utilities {
+        .pointer-events-none {
+          pointer-events: none;
+        }
+        .sr-only {
+          clip-path: inset(50%);
+          white-space: nowrap;
+          border-width: 0;
+          width: 1px;
+          height: 1px;
+          margin: -1px;
+          padding: 0;
+          position: absolute;
+          overflow: hidden;
+        }
+        .absolute {
+          position: absolute;
+        }
+        .fixed {
+          position: fixed;
+        }
+        .relative {
+          position: relative;
+        }
+        .inset-0 {
+          inset: 0;
+        }
+        .inset-x-0 {
+          inset-inline: 0;
+        }
+        .top-0 {
+          top: 0;
+        }
+        .-z-10 {
+          z-index: calc(10 * -1);
+        }
+        .z-50 {
+          z-index: 50;
+        }
+        .mx-auto {
+          margin-inline: auto;
+        }
+        .mt-0\.5 {
+          margin-top: calc(var(--spacing) * 0.5);
+        }
+        .mt-1 {
+          margin-top: var(--spacing);
+        }
+        .mt-2 {
+          margin-top: calc(var(--spacing) * 2);
+        }
+        .mt-2\.5 {
+          margin-top: calc(var(--spacing) * 2.5);
+        }
+        .mt-4 {
+          margin-top: calc(var(--spacing) * 4);
+        }
+        .mt-5 {
+          margin-top: calc(var(--spacing) * 5);
+        }
+        .mt-6 {
+          margin-top: calc(var(--spacing) * 6);
+        }
+        .mt-8 {
+          margin-top: calc(var(--spacing) * 8);
+        }
+        .mt-9 {
+          margin-top: calc(var(--spacing) * 9);
+        }
+        .mt-10 {
+          margin-top: calc(var(--spacing) * 10);
+        }
+        .mt-12 {
+          margin-top: calc(var(--spacing) * 12);
+        }
+        .mt-14 {
+          margin-top: calc(var(--spacing) * 14);
+        }
+        .ml-2 {
+          margin-left: calc(var(--spacing) * 2);
+        }
+        .ml-auto {
+          margin-left: auto;
+        }
+        .block {
+          display: block;
+        }
+        .flex {
+          display: flex;
+        }
+        .grid {
+          display: grid;
+        }
+        .hidden {
+          display: none;
+        }
+        .inline-flex {
+          display: inline-flex;
+        }
+        .size-1\.5 {
+          width: calc(var(--spacing) * 1.5);
+          height: calc(var(--spacing) * 1.5);
+        }
+        .size-2\.5 {
+          width: calc(var(--spacing) * 2.5);
+          height: calc(var(--spacing) * 2.5);
+        }
+        .size-4 {
+          width: calc(var(--spacing) * 4);
+          height: calc(var(--spacing) * 4);
+        }
+        .size-4\.5 {
+          width: calc(var(--spacing) * 4.5);
+          height: calc(var(--spacing) * 4.5);
+        }
+        .size-5 {
+          width: calc(var(--spacing) * 5);
+          height: calc(var(--spacing) * 5);
+        }
+        .size-8 {
+          width: calc(var(--spacing) * 8);
+          height: calc(var(--spacing) * 8);
+        }
+        .size-9 {
+          width: calc(var(--spacing) * 9);
+          height: calc(var(--spacing) * 9);
+        }
+        .size-10 {
+          width: calc(var(--spacing) * 10);
+          height: calc(var(--spacing) * 10);
+        }
+        .size-full {
+          width: 100%;
+          height: 100%;
+        }
+        .h-9 {
+          height: calc(var(--spacing) * 9);
+        }
+        .h-12 {
+          height: calc(var(--spacing) * 12);
+        }
+        .h-13 {
+          height: calc(var(--spacing) * 13);
+        }
+        .h-\[300px\] {
+          height: 300px;
+        }
+        .h-\[320px\] {
+          height: 320px;
+        }
+        .h-\[420px\] {
+          height: 420px;
+        }
+        .h-px {
+          height: 1px;
+        }
+        .w-\[300px\] {
+          width: 300px;
+        }
+        .w-\[320px\] {
+          width: 320px;
+        }
+        .w-\[420px\] {
+          width: 420px;
+        }
+        .w-full {
+          width: 100%;
+        }
+        .max-w-2xl {
+          max-width: var(--container-2xl);
+        }
+        .max-w-3xl {
+          max-width: var(--container-3xl);
+        }
+        .max-w-4xl {
+          max-width: var(--container-4xl);
+        }
+        .max-w-6xl {
+          max-width: var(--container-6xl);
+        }
+        .max-w-lg {
+          max-width: var(--container-lg);
+        }
+        .max-w-md {
+          max-width: var(--container-md);
+        }
+        .max-w-xl {
+          max-width: var(--container-xl);
+        }
+        .max-w-xs {
+          max-width: var(--container-xs);
+        }
+        .flex-1 {
+          flex: 1;
+        }
+        .shrink-0 {
+          flex-shrink: 0;
+        }
+        .-translate-x-full {
+          --tw-translate-x: -100%;
+          translate: var(--tw-translate-x) var(--tw-translate-y);
+        }
+        .transform {
+          transform: var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,)
+            var(--tw-skew-x,) var(--tw-skew-y,);
+        }
+        .grid-cols-2 {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+        .grid-cols-3 {
+          grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+        .flex-col {
+          flex-direction: column;
+        }
+        .flex-wrap {
+          flex-wrap: wrap;
+        }
+        .place-items-center {
+          place-items: center;
+        }
+        .items-baseline {
+          align-items: baseline;
+        }
+        .items-center {
+          align-items: center;
+        }
+        .items-start {
+          align-items: flex-start;
+        }
+        .justify-between {
+          justify-content: space-between;
+        }
+        .justify-center {
+          justify-content: center;
+        }
+        .gap-1 {
+          gap: var(--spacing);
+        }
+        .gap-1\.5 {
+          gap: calc(var(--spacing) * 1.5);
+        }
+        .gap-2 {
+          gap: calc(var(--spacing) * 2);
+        }
+        .gap-2\.5 {
+          gap: calc(var(--spacing) * 2.5);
+        }
+        .gap-3 {
+          gap: calc(var(--spacing) * 3);
+        }
+        .gap-4 {
+          gap: calc(var(--spacing) * 4);
+        }
+        .gap-5 {
+          gap: calc(var(--spacing) * 5);
+        }
+        .gap-8 {
+          gap: calc(var(--spacing) * 8);
+        }
+        .gap-14 {
+          gap: calc(var(--spacing) * 14);
+        }
+        .gap-16 {
+          gap: calc(var(--spacing) * 16);
+        }
+        .gap-px {
+          gap: 1px;
+        }
+        :where(.space-y-1\.5 > :not(:last-child)) {
+          --tw-space-y-reverse: 0;
+          margin-block-start: calc(
+            calc(var(--spacing) * 1.5) * var(--tw-space-y-reverse)
+          );
+          margin-block-end: calc(
+            calc(var(--spacing) * 1.5) * calc(1 - var(--tw-space-y-reverse))
+          );
+        }
+        :where(.space-y-3 > :not(:last-child)) {
+          --tw-space-y-reverse: 0;
+          margin-block-start: calc(
+            calc(var(--spacing) * 3) * var(--tw-space-y-reverse)
+          );
+          margin-block-end: calc(
+            calc(var(--spacing) * 3) * calc(1 - var(--tw-space-y-reverse))
+          );
+        }
+        :where(.space-y-3\.5 > :not(:last-child)) {
+          --tw-space-y-reverse: 0;
+          margin-block-start: calc(
+            calc(var(--spacing) * 3.5) * var(--tw-space-y-reverse)
+          );
+          margin-block-end: calc(
+            calc(var(--spacing) * 3.5) * calc(1 - var(--tw-space-y-reverse))
+          );
+        }
+        :where(.space-y-4 > :not(:last-child)) {
+          --tw-space-y-reverse: 0;
+          margin-block-start: calc(
+            calc(var(--spacing) * 4) * var(--tw-space-y-reverse)
+          );
+          margin-block-end: calc(
+            calc(var(--spacing) * 4) * calc(1 - var(--tw-space-y-reverse))
+          );
+        }
+        .gap-x-10 {
+          column-gap: calc(var(--spacing) * 10);
+        }
+        .gap-y-2\.5 {
+          row-gap: calc(var(--spacing) * 2.5);
+        }
+        :where(.divide-y > :not(:last-child)) {
+          --tw-divide-y-reverse: 0;
+          border-bottom-style: var(--tw-border-style);
+          border-top-style: var(--tw-border-style);
+          border-top-width: calc(1px * var(--tw-divide-y-reverse));
+          border-bottom-width: calc(1px * calc(1 - var(--tw-divide-y-reverse)));
+        }
+        :where(.divide-line-soft > :not(:last-child)) {
+          border-color: var(--line-soft);
+        }
+        .overflow-hidden {
+          overflow: hidden;
+        }
+        .rounded-2xl {
+          border-radius: var(--radius-2xl);
+        }
+        .rounded-3xl {
+          border-radius: var(--radius-3xl);
+        }
+        .rounded-full {
+          border-radius: 3.40282e38px;
+        }
+        .rounded-lg {
+          border-radius: var(--radius-lg);
+        }
+        .rounded-md {
+          border-radius: var(--radius-md);
+        }
+        .rounded-xl {
+          border-radius: var(--radius-xl);
+        }
+        .border {
+          border-style: var(--tw-border-style);
+          border-width: 1px;
+        }
+        .border-y {
+          border-block-style: var(--tw-border-style);
+          border-block-width: 1px;
+        }
+        .border-t {
+          border-top-style: var(--tw-border-style);
+          border-top-width: 1px;
+        }
+        .border-b {
+          border-bottom-style: var(--tw-border-style);
+          border-bottom-width: 1px;
+        }
+        .border-accent\/30 {
+          border-color: var(--accent);
+        }
+        @supports (color: color-mix(in lab, red, red)) {
+          .border-accent\/30 {
+            border-color: color-mix(in oklab, var(--accent) 30%, transparent);
+          }
+        }
+        .border-accent\/40 {
+          border-color: var(--accent);
+        }
+        @supports (color: color-mix(in lab, red, red)) {
+          .border-accent\/40 {
+            border-color: color-mix(in oklab, var(--accent) 40%, transparent);
+          }
+        }
+        .border-line {
+          border-color: var(--line);
+        }
+        .border-line-soft,
+        .border-line-soft\/80 {
+          border-color: var(--line-soft);
+        }
+        @supports (color: color-mix(in lab, red, red)) {
+          .border-line-soft\/80 {
+            border-color: color-mix(
+              in oklab,
+              var(--line-soft) 80%,
+              transparent
+            );
+          }
+        }
+        .bg-accent {
+          background-color: var(--accent);
+        }
+        .bg-accent-soft {
+          background-color: var(--accent-soft);
+        }
+        .bg-accent\/8 {
+          background-color: var(--accent);
+        }
+        @supports (color: color-mix(in lab, red, red)) {
+          .bg-accent\/8 {
+            background-color: color-mix(
+              in oklab,
+              var(--accent) 8%,
+              transparent
+            );
+          }
+        }
+        .bg-accent\/14 {
+          background-color: var(--accent);
+        }
+        @supports (color: color-mix(in lab, red, red)) {
+          .bg-accent\/14 {
+            background-color: color-mix(
+              in oklab,
+              var(--accent) 14%,
+              transparent
+            );
+          }
+        }
+        .bg-accent\/16 {
+          background-color: var(--accent);
+        }
+        @supports (color: color-mix(in lab, red, red)) {
+          .bg-accent\/16 {
+            background-color: color-mix(
+              in oklab,
+              var(--accent) 16%,
+              transparent
+            );
+          }
+        }
+        .bg-accent\/70 {
+          background-color: var(--accent);
+        }
+        @supports (color: color-mix(in lab, red, red)) {
+          .bg-accent\/70 {
+            background-color: color-mix(
+              in oklab,
+              var(--accent) 70%,
+              transparent
+            );
+          }
+        }
+        .bg-bg {
+          background-color: var(--bg);
+        }
+        .bg-bg-soft {
+          background-color: var(--bg-soft);
+        }
+        .bg-bg\/80 {
+          background-color: var(--bg);
+        }
+        @supports (color: color-mix(in lab, red, red)) {
+          .bg-bg\/80 {
+            background-color: color-mix(in oklab, var(--bg) 80%, transparent);
+          }
+        }
+        .bg-danger\/70 {
+          background-color: var(--danger);
+        }
+        @supports (color: color-mix(in lab, red, red)) {
+          .bg-danger\/70 {
+            background-color: color-mix(
+              in oklab,
+              var(--danger) 70%,
+              transparent
+            );
+          }
+        }
+        .bg-line {
+          background-color: var(--line);
+        }
+        .bg-surface {
+          background-color: var(--surface);
+        }
+        .bg-surface-2 {
+          background-color: var(--surface-2);
+        }
+        .bg-warn\/70 {
+          background-color: var(--warn);
+        }
+        @supports (color: color-mix(in lab, red, red)) {
+          .bg-warn\/70 {
+            background-color: color-mix(in oklab, var(--warn) 70%, transparent);
+          }
+        }
+        .bg-white\/25 {
+          background-color: #ffffff40;
+        }
+        @supports (color: color-mix(in lab, red, red)) {
+          .bg-white\/25 {
+            background-color: color-mix(
+              in oklab,
+              var(--color-white) 25%,
+              transparent
+            );
+          }
+        }
+        .bg-gradient-to-r {
+          --tw-gradient-position: to right in oklab;
+          background-image: linear-gradient(var(--tw-gradient-stops));
+        }
+        .from-transparent {
+          --tw-gradient-from: transparent;
+          --tw-gradient-stops: var(
+            --tw-gradient-via-stops,
+            var(--tw-gradient-position),
+            var(--tw-gradient-from) var(--tw-gradient-from-position),
+            var(--tw-gradient-to) var(--tw-gradient-to-position)
+          );
+        }
+        .via-accent\/50 {
+          --tw-gradient-via: var(--accent);
+        }
+        @supports (color: color-mix(in lab, red, red)) {
+          .via-accent\/50 {
+            --tw-gradient-via: color-mix(
+              in oklab,
+              var(--accent) 50%,
+              transparent
+            );
+          }
+        }
+        .via-accent\/50 {
+          --tw-gradient-via-stops:
+            var(--tw-gradient-position),
+            var(--tw-gradient-from) var(--tw-gradient-from-position),
+            var(--tw-gradient-via) var(--tw-gradient-via-position),
+            var(--tw-gradient-to) var(--tw-gradient-to-position);
+          --tw-gradient-stops: var(--tw-gradient-via-stops);
+        }
+        .to-transparent {
+          --tw-gradient-to: transparent;
+          --tw-gradient-stops: var(
+            --tw-gradient-via-stops,
+            var(--tw-gradient-position),
+            var(--tw-gradient-from) var(--tw-gradient-from-position),
+            var(--tw-gradient-to) var(--tw-gradient-to-position)
+          );
+        }
+        .p-4 {
+          padding: calc(var(--spacing) * 4);
+        }
+        .p-5 {
+          padding: calc(var(--spacing) * 5);
+        }
+        .p-6 {
+          padding: calc(var(--spacing) * 6);
+        }
+        .p-7 {
+          padding: calc(var(--spacing) * 7);
+        }
+        .px-2 {
+          padding-inline: calc(var(--spacing) * 2);
+        }
+        .px-2\.5 {
+          padding-inline: calc(var(--spacing) * 2.5);
+        }
+        .px-3 {
+          padding-inline: calc(var(--spacing) * 3);
+        }
+        .px-3\.5 {
+          padding-inline: calc(var(--spacing) * 3.5);
+        }
+        .px-4 {
+          padding-inline: calc(var(--spacing) * 4);
+        }
+        .px-5 {
+          padding-inline: calc(var(--spacing) * 5);
+        }
+        .px-6 {
+          padding-inline: calc(var(--spacing) * 6);
+        }
+        .px-7 {
+          padding-inline: calc(var(--spacing) * 7);
+        }
+        .py-0\.5 {
+          padding-block: calc(var(--spacing) * 0.5);
+        }
+        .py-1 {
+          padding-block: var(--spacing);
+        }
+        .py-1\.5 {
+          padding-block: calc(var(--spacing) * 1.5);
+        }
+        .py-2 {
+          padding-block: calc(var(--spacing) * 2);
+        }
+        .py-3\.5 {
+          padding-block: calc(var(--spacing) * 3.5);
+        }
+        .py-4 {
+          padding-block: calc(var(--spacing) * 4);
+        }
+        .py-5 {
+          padding-block: calc(var(--spacing) * 5);
+        }
+        .py-12 {
+          padding-block: calc(var(--spacing) * 12);
+        }
+        .py-14 {
+          padding-block: calc(var(--spacing) * 14);
+        }
+        .py-20 {
+          padding-block: calc(var(--spacing) * 20);
+        }
+        .pt-1 {
+          padding-top: var(--spacing);
+        }
+        .pt-6 {
+          padding-top: calc(var(--spacing) * 6);
+        }
+        .pt-8 {
+          padding-top: calc(var(--spacing) * 8);
+        }
+        .pt-32 {
+          padding-top: calc(var(--spacing) * 32);
+        }
+        .pb-1 {
+          padding-bottom: var(--spacing);
+        }
+        .pb-4 {
+          padding-bottom: calc(var(--spacing) * 4);
+        }
+        .pb-5 {
+          padding-bottom: calc(var(--spacing) * 5);
+        }
+        .pb-6 {
+          padding-bottom: calc(var(--spacing) * 6);
+        }
+        .pb-20 {
+          padding-bottom: calc(var(--spacing) * 20);
+        }
+        .text-center {
+          text-align: center;
+        }
+        .text-left {
+          text-align: left;
+        }
+        .font-mono {
+          font-family:
+            JetBrains Mono,
+            ui-monospace,
+            SFMono-Regular,
+            Menlo,
+            monospace;
+        }
+        .font-sans {
+          font-family:
+            Inter,
+            ui-sans-serif,
+            system-ui,
+            -apple-system,
+            Segoe UI,
+            Roboto,
+            sans-serif;
+        }
+        .text-lg {
+          font-size: var(--text-lg);
+          line-height: var(--tw-leading, var(--text-lg--line-height));
+        }
+        .text-xs {
+          font-size: var(--text-xs);
+          line-height: var(--tw-leading, var(--text-xs--line-height));
+        }
+        .text-\[8px\] {
+          font-size: 8px;
+        }
+        .text-\[9px\] {
+          font-size: 9px;
+        }
+        .text-\[10\.5px\] {
+          font-size: 10.5px;
+        }
+        .text-\[10px\] {
+          font-size: 10px;
+        }
+        .text-\[11px\] {
+          font-size: 11px;
+        }
+        .text-\[12\.5px\] {
+          font-size: 12.5px;
+        }
+        .text-\[12px\] {
+          font-size: 12px;
+        }
+        .text-\[13\.5px\] {
+          font-size: 13.5px;
+        }
+        .text-\[13px\] {
+          font-size: 13px;
+        }
+        .text-\[14\.5px\] {
+          font-size: 14.5px;
+        }
+        .text-\[14px\] {
+          font-size: 14px;
+        }
+        .text-\[15\.5px\] {
+          font-size: 15.5px;
+        }
+        .text-\[15px\] {
+          font-size: 15px;
+        }
+        .text-\[16\.5px\] {
+          font-size: 16.5px;
+        }
+        .text-\[17px\] {
+          font-size: 17px;
+        }
+        .text-\[26px\] {
+          font-size: 26px;
+        }
+        .text-\[clamp\(1\.8rem\,4\.4vw\,2\.6rem\)\] {
+          font-size: clamp(1.8rem, 4.4vw, 2.6rem);
+        }
+        .text-\[clamp\(1\.9rem\,4vw\,2\.7rem\)\] {
+          font-size: clamp(1.9rem, 4vw, 2.7rem);
+        }
+        .text-\[clamp\(2\.4rem\,6\.2vw\,4\.1rem\)\] {
+          font-size: clamp(2.4rem, 6.2vw, 4.1rem);
+        }
+        .leading-\[1\.1\] {
+          --tw-leading: 1.1;
+          line-height: 1.1;
+        }
+        .leading-\[1\.03\] {
+          --tw-leading: 1.03;
+          line-height: 1.03;
+        }
+        .leading-\[1\.08\] {
+          --tw-leading: 1.08;
+          line-height: 1.08;
+        }
+        .leading-none {
+          --tw-leading: 1;
+          line-height: 1;
+        }
+        .leading-relaxed {
+          --tw-leading: var(--leading-relaxed);
+          line-height: var(--leading-relaxed);
+        }
+        .font-bold {
+          --tw-font-weight: var(--font-weight-bold);
+          font-weight: var(--font-weight-bold);
+        }
+        .font-extrabold {
+          --tw-font-weight: var(--font-weight-extrabold);
+          font-weight: var(--font-weight-extrabold);
+        }
+        .font-medium {
+          --tw-font-weight: var(--font-weight-medium);
+          font-weight: var(--font-weight-medium);
+        }
+        .font-semibold {
+          --tw-font-weight: var(--font-weight-semibold);
+          font-weight: var(--font-weight-semibold);
+        }
+        .tracking-\[-0\.03em\] {
+          --tw-tracking: -0.03em;
+          letter-spacing: -0.03em;
+        }
+        .tracking-\[-0\.035em\] {
+          --tw-tracking: -0.035em;
+          letter-spacing: -0.035em;
+        }
+        .tracking-\[0\.16em\] {
+          --tw-tracking: 0.16em;
+          letter-spacing: 0.16em;
+        }
+        .tracking-tight {
+          --tw-tracking: var(--tracking-tight);
+          letter-spacing: var(--tracking-tight);
+        }
+        .tracking-widest {
+          --tw-tracking: var(--tracking-widest);
+          letter-spacing: var(--tracking-widest);
+        }
+        .text-\[\#062018\] {
+          color: #062018;
+        }
+        .text-accent {
+          color: var(--accent);
+        }
+        .text-accent-ink {
+          color: var(--accent-ink);
+        }
+        .text-danger {
+          color: var(--danger);
+        }
+        .text-ink {
+          color: var(--ink);
+        }
+        .text-ink-faint {
+          color: var(--ink-faint);
+        }
+        .text-ink-muted {
+          color: var(--ink-muted);
+        }
+        .text-warn {
+          color: var(--warn);
+        }
+        .text-white {
+          color: var(--color-white);
+        }
+        .text-white\/25 {
+          color: #ffffff40;
+        }
+        @supports (color: color-mix(in lab, red, red)) {
+          .text-white\/25 {
+            color: color-mix(in oklab, var(--color-white) 25%, transparent);
+          }
+        }
+        .text-white\/30 {
+          color: #ffffff4d;
+        }
+        @supports (color: color-mix(in lab, red, red)) {
+          .text-white\/30 {
+            color: color-mix(in oklab, var(--color-white) 30%, transparent);
+          }
+        }
+        .text-white\/35 {
+          color: #ffffff59;
+        }
+        @supports (color: color-mix(in lab, red, red)) {
+          .text-white\/35 {
+            color: color-mix(in oklab, var(--color-white) 35%, transparent);
+          }
+        }
+        .text-white\/45 {
+          color: #ffffff73;
+        }
+        @supports (color: color-mix(in lab, red, red)) {
+          .text-white\/45 {
+            color: color-mix(in oklab, var(--color-white) 45%, transparent);
+          }
+        }
+        .text-white\/55 {
+          color: #ffffff8c;
+        }
+        @supports (color: color-mix(in lab, red, red)) {
+          .text-white\/55 {
+            color: color-mix(in oklab, var(--color-white) 55%, transparent);
+          }
+        }
+        .uppercase {
+          text-transform: uppercase;
+        }
+        .antialiased {
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+        }
+        .opacity-0 {
+          opacity: 0;
+        }
+        .opacity-55 {
+          opacity: 0.55;
+        }
+        .shadow-none {
+          --tw-shadow: 0 0 #0000;
+          box-shadow:
+            var(--tw-inset-shadow), var(--tw-inset-ring-shadow),
+            var(--tw-ring-offset-shadow), var(--tw-ring-shadow),
+            var(--tw-shadow);
+        }
+        .backdrop-blur-xl {
+          --tw-backdrop-blur: blur(var(--blur-xl));
+          -webkit-backdrop-filter: var(--tw-backdrop-blur,)
+            var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,)
+            var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,)
+            var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,)
+            var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
+          backdrop-filter: var(--tw-backdrop-blur,)
+            var(--tw-backdrop-brightness,) var(--tw-backdrop-contrast,)
+            var(--tw-backdrop-grayscale,) var(--tw-backdrop-hue-rotate,)
+            var(--tw-backdrop-invert,) var(--tw-backdrop-opacity,)
+            var(--tw-backdrop-saturate,) var(--tw-backdrop-sepia,);
+        }
+        .transition-colors {
+          transition-property:
+            color, background-color, border-color, outline-color,
+            text-decoration-color, fill, stroke, --tw-gradient-from,
+            --tw-gradient-via, --tw-gradient-to;
+          transition-timing-function: var(
+            --tw-ease,
+            var(--default-transition-timing-function)
+          );
+          transition-duration: var(
+            --tw-duration,
+            var(--default-transition-duration)
+          );
+        }
+        .transition-opacity {
+          transition-property: opacity;
+          transition-timing-function: var(
+            --tw-ease,
+            var(--default-transition-timing-function)
+          );
+          transition-duration: var(
+            --tw-duration,
+            var(--default-transition-duration)
+          );
+        }
+        .transition-transform {
+          transition-property: transform, translate, scale, rotate;
+          transition-timing-function: var(
+            --tw-ease,
+            var(--default-transition-timing-function)
+          );
+          transition-duration: var(
+            --tw-duration,
+            var(--default-transition-duration)
+          );
+        }
+        .duration-200 {
+          --tw-duration: 0.2s;
+          transition-duration: 0.2s;
+        }
+        .duration-500 {
+          --tw-duration: 0.5s;
+          transition-duration: 0.5s;
+        }
+        .duration-700 {
+          --tw-duration: 0.7s;
+          transition-duration: 0.7s;
+        }
+        @media (hover: hover) {
+          .group-hover\:translate-x-full:is(:where(.group):hover *) {
+            --tw-translate-x: 100%;
+            translate: var(--tw-translate-x) var(--tw-translate-y);
+          }
+          .group-hover\:rotate-\[140deg\]:is(:where(.group):hover *) {
+            rotate: 140deg;
+          }
+          .group-hover\:opacity-100:is(:where(.group):hover *) {
+            opacity: 1;
+          }
+          .hover\:-translate-y-0\.5:hover {
+            --tw-translate-y: calc(var(--spacing) * -0.5);
+            translate: var(--tw-translate-x) var(--tw-translate-y);
+          }
+          .hover\:-translate-y-px:hover {
+            --tw-translate-y: -1px;
+            translate: var(--tw-translate-x) var(--tw-translate-y);
+          }
+          .hover\:border-ink-faint:hover {
+            border-color: var(--ink-faint);
+          }
+          .hover\:bg-surface-2:hover {
+            background-color: var(--surface-2);
+          }
+          .hover\:text-ink:hover {
+            color: var(--ink);
+          }
+          .hover\:opacity-70:hover {
+            opacity: 0.7;
+          }
+        }
+        .focus\:not-sr-only:focus {
+          clip-path: none;
+          white-space: normal;
+          width: auto;
+          height: auto;
+          margin: 0;
+          padding: 0;
+          position: static;
+          overflow: visible;
+        }
+        .focus\:fixed:focus {
+          position: fixed;
+        }
+        .focus\:top-4:focus {
+          top: calc(var(--spacing) * 4);
+        }
+        .focus\:left-4:focus {
+          left: calc(var(--spacing) * 4);
+        }
+        .focus\:z-\[70\]:focus {
+          z-index: 70;
+        }
+        .focus\:rounded-lg:focus {
+          border-radius: var(--radius-lg);
+        }
+        .focus\:bg-accent:focus {
+          background-color: var(--accent);
+        }
+        .focus\:px-4:focus {
+          padding-inline: calc(var(--spacing) * 4);
+        }
+        .focus\:py-2:focus {
+          padding-block: calc(var(--spacing) * 2);
+        }
+        .focus\:text-sm:focus {
+          font-size: var(--text-sm);
+          line-height: var(--tw-leading, var(--text-sm--line-height));
+        }
+        .focus\:font-semibold:focus {
+          --tw-font-weight: var(--font-weight-semibold);
+          font-weight: var(--font-weight-semibold);
+        }
+        .focus\:text-accent-ink:focus {
+          color: var(--accent-ink);
+        }
+        .active\:translate-y-0:active {
+          --tw-translate-y: 0px;
+          translate: var(--tw-translate-x) var(--tw-translate-y);
+        }
+        @media (min-width: 40rem) {
+          .sm\:grid-cols-2 {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+          }
+          .sm\:grid-cols-3 {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+          }
+          .sm\:flex-row {
+            flex-direction: row;
+          }
+          .sm\:items-center {
+            align-items: center;
+          }
+          .sm\:items-start {
+            align-items: flex-start;
+          }
+          .sm\:justify-between {
+            justify-content: space-between;
+          }
+          .sm\:px-8 {
+            padding-inline: calc(var(--spacing) * 8);
+          }
+          .sm\:px-14 {
+            padding-inline: calc(var(--spacing) * 14);
+          }
+          .sm\:py-24 {
+            padding-block: calc(var(--spacing) * 24);
+          }
+          .sm\:py-28 {
+            padding-block: calc(var(--spacing) * 28);
+          }
+          .sm\:pt-40 {
+            padding-top: calc(var(--spacing) * 40);
+          }
+          .sm\:pb-28 {
+            padding-bottom: calc(var(--spacing) * 28);
+          }
+        }
+        @media (min-width: 48rem) {
+          .md\:ml-0 {
+            margin-left: 0;
+          }
+          .md\:flex {
+            display: flex;
+          }
+          .md\:grid-cols-3 {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+          }
+        }
+        @media (min-width: 64rem) {
+          .lg\:grid-cols-2 {
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+          }
+          .lg\:grid-cols-3 {
+            grid-template-columns: repeat(3, minmax(0, 1fr));
+          }
+          .lg\:grid-cols-4 {
+            grid-template-columns: repeat(4, minmax(0, 1fr));
+          }
+          .lg\:grid-cols-\[0\.95fr_1\.05fr\] {
+            grid-template-columns: 0.95fr 1.05fr;
+          }
+          .lg\:grid-cols-\[1\.15fr_0\.85fr\] {
+            grid-template-columns: 1.15fr 0.85fr;
+          }
+          .lg\:items-center {
+            align-items: center;
+          }
+          .lg\:justify-end {
+            justify-content: flex-end;
+          }
+        }
+      }
+      :root {
+        --bg: #0e100e;
+        --bg-soft: #141614;
+        --surface: #181b18;
+        --surface-2: #1f231f;
+        --line: #2b302b;
+        --line-soft: #222622;
+        --ink: #f2f4f0;
+        --ink-muted: #a8b0a6;
+        --ink-faint: #757d73;
+        --accent: #6fd3a8;
+        --accent-ink: #062018;
+        --accent-soft: #14332a;
+        --warn: #e0b15a;
+        --danger: #f0857f;
+        --grid-line: #6fd3a812;
+        --grain-opacity: 0.035;
+        --phone-screen: #101310;
+        --shadow-strong: 0 40px 90px -30px #000000e6;
+        color-scheme: dark;
+      }
+      [data-theme="light"] {
+        --bg: #faf9f6;
+        --bg-soft: #f2f1ec;
+        --surface: #fff;
+        --surface-2: #f4f3ee;
+        --line: #e2dfd6;
+        --line-soft: #ebe9e2;
+        --ink: #16181a;
+        --ink-muted: #55595c;
+        --ink-faint: #83878a;
+        --accent: #14705a;
+        --accent-ink: #fff;
+        --accent-soft: #e0efe9;
+        --warn: #8a5a00;
+        --danger: #a3282b;
+        --grid-line: #14705a0f;
+        --grain-opacity: 0.02;
+        --phone-screen: #14171a;
+        --shadow-strong: 0 40px 80px -34px #14181459;
+        color-scheme: light;
+      }
+      html {
+        scroll-behavior: smooth;
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        background-color: var(--bg);
+        color: var(--ink);
+        font-family: var(--font-sans);
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizelegibility;
+        overflow-x: hidden;
+      }
+      .dark-only,
+      .light-only {
+        display: none;
+      }
+      [data-theme="dark"] .dark-only,
+      [data-theme="light"] .light-only {
+        display: block;
+      }
+      ::selection {
+        background: var(--accent);
+        color: var(--accent-ink);
+      }
+      :focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 3px;
+        border-radius: 4px;
+      }
+      .grid-bg {
+        background-image:
+          linear-gradient(var(--grid-line) 1px, transparent 1px),
+          linear-gradient(90deg, var(--grid-line) 1px, transparent 1px);
+        background-size: 64px 64px;
+        -webkit-mask-image: radial-gradient(
+          80% 60% at 50% 0,
+          #000 40%,
+          #0000 100%
+        );
+        mask-image: radial-gradient(80% 60% at 50% 0, #000 40%, #0000 100%);
+      }
+      .grain:after {
+        content: "";
+        pointer-events: none;
+        z-index: 60;
+        opacity: var(--grain-opacity);
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+        position: fixed;
+        inset: 0;
+      }
+      .stage {
+        perspective: 1400px;
+        perspective-origin: 50% 40%;
+      }
+      .phone {
+        aspect-ratio: 9/19;
+        width: 280px;
+        transform-style: preserve-3d;
+        transform: rotateX(var(--rx, 0deg)) rotateY(var(--ry, 0deg))
+          translateZ(0);
+        will-change: transform;
+        border-radius: 42px;
+        transition: transform 0.4s cubic-bezier(0.22, 1, 0.36, 1);
+        position: relative;
+      }
+      .phone-rim {
+        border-radius: inherit;
+        background: linear-gradient(
+          150deg,
+          var(--ink),
+          var(--ink) 28%,
+          var(--ink) 55%,
+          var(--ink) 78%,
+          var(--ink)
+        );
+        padding: 3px;
+        position: absolute;
+        inset: 0;
+      }
+      @supports (color: color-mix(in lab, red, red)) {
+        .phone-rim {
+          background: linear-gradient(
+            150deg,
+            color-mix(in oklab, var(--ink) 45%, transparent),
+            color-mix(in oklab, var(--ink) 8%, transparent) 28%,
+            color-mix(in oklab, var(--ink) 30%, transparent) 55%,
+            color-mix(in oklab, var(--ink) 6%, transparent) 78%,
+            color-mix(in oklab, var(--ink) 35%, transparent)
+          );
+        }
+      }
+      .phone-rim {
+        box-shadow: var(--shadow-strong);
+        transform: translateZ(0);
+      }
+      .phone-screen {
+        background: var(--phone-screen);
+        border-radius: 39px;
+        flex-direction: column;
+        display: flex;
+        position: absolute;
+        inset: 3px;
+        overflow: hidden;
+        transform: translateZ(18px);
+      }
+      .phone-edge {
+        border-radius: inherit;
+        background: linear-gradient(90deg, var(--ink), transparent 40%);
+        position: absolute;
+        inset: 0;
+        transform: translateZ(-14px) translate(-10px);
+      }
+      @supports (color: color-mix(in lab, red, red)) {
+        .phone-edge {
+          background: linear-gradient(
+            90deg,
+            color-mix(in oklab, var(--ink) 16%, transparent),
+            transparent 40%
+          );
+        }
+      }
+      .phone-edge {
+        filter: blur(1px);
+      }
+      .phone-float {
+        animation: 7s ease-in-out infinite float;
+      }
+      @keyframes float {
+        0%,
+        to {
+          transform: translateY(0);
+        }
+        50% {
+          transform: translateY(-14px);
+        }
+      }
+      .notch {
+        z-index: 3;
+        background: #000;
+        border-radius: 999px;
+        width: 84px;
+        height: 22px;
+        position: absolute;
+        top: 10px;
+        left: 50%;
+        transform: translate(-50%);
+      }
+      .dial {
+        aspect-ratio: 1;
+        background: conic-gradient(
+          from -90deg,
+          var(--accent) 0turn,
+          var(--accent) var(--fill, 0.32turn),
+          var(--ink) var(--fill, 0.32turn),
+          var(--ink) 1turn
+        );
+        border-radius: 50%;
+        width: 168px;
+        position: relative;
+      }
+      @supports (color: color-mix(in lab, red, red)) {
+        .dial {
+          background: conic-gradient(
+            from -90deg,
+            var(--accent) 0turn,
+            var(--accent) var(--fill, 0.32turn),
+            color-mix(in oklab, var(--ink) 12%, transparent)
+              var(--fill, 0.32turn),
+            color-mix(in oklab, var(--ink) 12%, transparent) 1turn
+          );
+        }
+      }
+      .dial {
+        -webkit-mask: radial-gradient(circle, #0000 0 61%, #000 62%);
+        mask: radial-gradient(circle, #0000 0 61%, #000 62%);
+      }
+      .dial-knob {
+        background: var(--accent);
+        width: 14px;
+        height: 14px;
+        box-shadow: 0 0 0 4px var(--accent);
+        border-radius: 50%;
+        position: absolute;
+      }
+      @supports (color: color-mix(in lab, red, red)) {
+        .dial-knob {
+          box-shadow: 0 0 0 4px
+            color-mix(in oklab, var(--accent) 22%, transparent);
+        }
+      }
+      .dial-knob {
+        transform: translate(-50%, -50%);
+      }
+      .tick-layer {
+        position: absolute;
+        inset: 0;
+      }
+      .tick {
+        background: var(--ink);
+        border-radius: 1px;
+        width: 2px;
+        height: 5px;
+        position: absolute;
+      }
+      @supports (color: color-mix(in lab, red, red)) {
+        .tick {
+          background: color-mix(in oklab, var(--ink) 28%, transparent);
+        }
+      }
+      .tick {
+        transform-origin: 50% 100%;
+      }
+      .tilt {
+        transform-style: preserve-3d;
+        transform: perspective(900px) rotateX(var(--tx, 0deg))
+          rotateY(var(--ty, 0deg)) translateZ(0);
+        transition:
+          transform 0.3s cubic-bezier(0.22, 1, 0.36, 1),
+          border-color 0.3s,
+          background-color 0.3s;
+      }
+      .reveal {
+        opacity: 0;
+        transition:
+          opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+          transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+        transform: translateY(22px);
+      }
+      .reveal.is-visible {
+        opacity: 1;
+        transform: none;
+      }
+      .orb {
+        filter: blur(70px);
+        pointer-events: none;
+        will-change: transform;
+        border-radius: 50%;
+        position: absolute;
+      }
+      .pulse-ring {
+        animation: 2.6s ease-out infinite pulse-ring;
+      }
+      @keyframes pulse-ring {
+        0% {
+          opacity: 0.55;
+          transform: scale(0.85);
+        }
+        to {
+          opacity: 0;
+          transform: scale(1.35);
+        }
+      }
+      .acc-panel {
+        grid-template-rows: 0fr;
+        transition: grid-template-rows 0.38s cubic-bezier(0.22, 1, 0.36, 1);
+        display: grid;
+      }
+      .acc-panel > div {
+        overflow: hidden;
+      }
+      .acc-item[data-open="true"] .acc-panel {
+        grid-template-rows: 1fr;
+      }
+      .acc-item[data-open="true"] .acc-chevron {
+        transform: rotate(180deg);
+      }
+      .acc-chevron {
+        transition: transform 0.38s cubic-bezier(0.22, 1, 0.36, 1);
+      }
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+        *,
+        :before,
+        :after {
+          transition-duration: 0.001ms !important;
+          animation-duration: 0.001ms !important;
+          animation-iteration-count: 1 !important;
+        }
+        .reveal {
+          opacity: 1;
+          transform: none;
+        }
+        .phone,
+        .tilt {
+          transform: none !important;
+        }
+      }
+      @property --tw-translate-x {
+        syntax: "*";
+        inherits: false;
+        initial-value: 0;
+      }
+      @property --tw-translate-y {
+        syntax: "*";
+        inherits: false;
+        initial-value: 0;
+      }
+      @property --tw-translate-z {
+        syntax: "*";
+        inherits: false;
+        initial-value: 0;
+      }
+      @property --tw-rotate-x {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-rotate-y {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-rotate-z {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-skew-x {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-skew-y {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-space-y-reverse {
+        syntax: "*";
+        inherits: false;
+        initial-value: 0;
+      }
+      @property --tw-divide-y-reverse {
+        syntax: "*";
+        inherits: false;
+        initial-value: 0;
+      }
+      @property --tw-border-style {
+        syntax: "*";
+        inherits: false;
+        initial-value: solid;
+      }
+      @property --tw-gradient-position {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-gradient-from {
+        syntax: "<color>";
+        inherits: false;
+        initial-value: #0000;
+      }
+      @property --tw-gradient-via {
+        syntax: "<color>";
+        inherits: false;
+        initial-value: #0000;
+      }
+      @property --tw-gradient-to {
+        syntax: "<color>";
+        inherits: false;
+        initial-value: #0000;
+      }
+      @property --tw-gradient-stops {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-gradient-via-stops {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-gradient-from-position {
+        syntax: "<length-percentage>";
+        inherits: false;
+        initial-value: 0%;
+      }
+      @property --tw-gradient-via-position {
+        syntax: "<length-percentage>";
+        inherits: false;
+        initial-value: 50%;
+      }
+      @property --tw-gradient-to-position {
+        syntax: "<length-percentage>";
+        inherits: false;
+        initial-value: 100%;
+      }
+      @property --tw-leading {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-font-weight {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-tracking {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-shadow {
+        syntax: "*";
+        inherits: false;
+        initial-value: 0 0 #0000;
+      }
+      @property --tw-shadow-color {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-shadow-alpha {
+        syntax: "<percentage>";
+        inherits: false;
+        initial-value: 100%;
+      }
+      @property --tw-inset-shadow {
+        syntax: "*";
+        inherits: false;
+        initial-value: 0 0 #0000;
+      }
+      @property --tw-inset-shadow-color {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-inset-shadow-alpha {
+        syntax: "<percentage>";
+        inherits: false;
+        initial-value: 100%;
+      }
+      @property --tw-ring-color {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-ring-shadow {
+        syntax: "*";
+        inherits: false;
+        initial-value: 0 0 #0000;
+      }
+      @property --tw-inset-ring-color {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-inset-ring-shadow {
+        syntax: "*";
+        inherits: false;
+        initial-value: 0 0 #0000;
+      }
+      @property --tw-ring-inset {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-ring-offset-width {
+        syntax: "<length>";
+        inherits: false;
+        initial-value: 0;
+      }
+      @property --tw-ring-offset-color {
+        syntax: "*";
+        inherits: false;
+        initial-value: #fff;
+      }
+      @property --tw-ring-offset-shadow {
+        syntax: "*";
+        inherits: false;
+        initial-value: 0 0 #0000;
+      }
+      @property --tw-backdrop-blur {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-backdrop-brightness {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-backdrop-contrast {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-backdrop-grayscale {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-backdrop-hue-rotate {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-backdrop-invert {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-backdrop-opacity {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-backdrop-saturate {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-backdrop-sepia {
+        syntax: "*";
+        inherits: false;
+      }
+      @property --tw-duration {
+        syntax: "*";
+        inherits: false;
+      }
     </style>
   </head>
 
@@ -47,8 +2035,14 @@
     <header
       class="fixed inset-x-0 top-0 z-50 border-b border-line-soft/80 bg-bg/80 backdrop-blur-xl"
     >
-      <div class="mx-auto flex max-w-6xl items-center gap-3 px-5 py-3.5 sm:px-8">
-        <a href="#top" class="group flex items-center gap-2.5" aria-label="Stilltime home">
+      <div
+        class="mx-auto flex max-w-6xl items-center gap-3 px-5 py-3.5 sm:px-8"
+      >
+        <a
+          href="#top"
+          class="group flex items-center gap-2.5"
+          aria-label="Stilltime home"
+        >
           <span
             class="relative grid size-8 place-items-center rounded-lg border border-line bg-surface"
           >
@@ -68,26 +2062,34 @@
           <span class="text-[15px] font-bold tracking-tight">Stilltime</span>
         </a>
 
-        <nav class="ml-auto hidden items-center gap-1 md:flex" aria-label="Sections">
+        <nav
+          class="ml-auto hidden items-center gap-1 md:flex"
+          aria-label="Sections"
+        >
           <a
             class="rounded-lg px-3 py-2 text-[13.5px] font-medium text-ink-muted transition-colors hover:bg-surface-2 hover:text-ink"
-            href="#how">How it works</a
+            href="#how"
+            >How it works</a
           >
           <a
             class="rounded-lg px-3 py-2 text-[13.5px] font-medium text-ink-muted transition-colors hover:bg-surface-2 hover:text-ink"
-            href="#when">When to use it</a
+            href="#when"
+            >When to use it</a
           >
           <a
             class="rounded-lg px-3 py-2 text-[13.5px] font-medium text-ink-muted transition-colors hover:bg-surface-2 hover:text-ink"
-            href="#features">Features</a
+            href="#features"
+            >Features</a
           >
           <a
             class="rounded-lg px-3 py-2 text-[13.5px] font-medium text-ink-muted transition-colors hover:bg-surface-2 hover:text-ink"
-            href="#transparency">Privacy</a
+            href="#transparency"
+            >Privacy</a
           >
           <a
             class="rounded-lg px-3 py-2 text-[13.5px] font-medium text-ink-muted transition-colors hover:bg-surface-2 hover:text-ink"
-            href="#faq">FAQ</a
+            href="#faq"
+            >FAQ</a
           >
         </nav>
 
@@ -151,7 +2153,10 @@
 
     <main id="main">
       <!-- ============================ Hero ============================ -->
-      <section id="top" class="relative overflow-hidden pt-32 pb-20 sm:pt-40 sm:pb-28">
+      <section
+        id="top"
+        class="relative overflow-hidden pt-32 pb-20 sm:pt-40 sm:pb-28"
+      >
         <div class="grid-bg absolute inset-0 -z-10" aria-hidden="true"></div>
         <div
           class="orb -z-10 h-[420px] w-[420px] bg-accent/16"
@@ -166,7 +2171,9 @@
           aria-hidden="true"
         ></div>
 
-        <div class="mx-auto grid max-w-6xl items-center gap-16 px-5 sm:px-8 lg:grid-cols-[1.15fr_0.85fr]">
+        <div
+          class="mx-auto grid max-w-6xl items-center gap-16 px-5 sm:px-8 lg:grid-cols-[1.15fr_0.85fr]"
+        >
           <div>
             <p
               class="reveal inline-flex items-center gap-2 rounded-full border border-line bg-surface px-3 py-1.5 text-xs font-medium text-ink-muted"
@@ -175,7 +2182,9 @@
                 <span
                   class="pulse-ring absolute inline-flex size-full rounded-full bg-accent"
                 ></span>
-                <span class="relative inline-flex size-1.5 rounded-full bg-accent"></span>
+                <span
+                  class="relative inline-flex size-1.5 rounded-full bg-accent"
+                ></span>
               </span>
               Offline Android utility · no account
             </p>
@@ -192,9 +2201,11 @@
               class="reveal mt-6 max-w-xl text-[17px] leading-relaxed text-ink-muted"
               style="transition-delay: 140ms"
             >
-              Android buries it under <span class="font-mono text-[15px]">Settings → Display</span>.
-              Stilltime puts a dial on it — 15&nbsp;seconds to 1&nbsp;hour, the whole circle — writes
-              the value through the documented system API, then reads it back to prove it stuck.
+              Android buries it under
+              <span class="font-mono text-[15px]">Settings → Display</span>.
+              Stilltime puts a dial on it — 15&nbsp;seconds to 1&nbsp;hour, the
+              whole circle — writes the value through the documented system API,
+              then reads it back to prove it stuck.
             </p>
 
             <div
@@ -249,22 +2260,36 @@
               style="transition-delay: 280ms"
             >
               <div class="bg-bg px-4 py-4">
-                <dt class="text-[11px] font-semibold tracking-widest text-ink-faint uppercase">
+                <dt
+                  class="text-[11px] font-semibold tracking-widest text-ink-faint uppercase"
+                >
                   Range
                 </dt>
-                <dd class="mt-1 font-mono text-[15px] font-semibold text-ink">15s – 1h</dd>
+                <dd class="mt-1 font-mono text-[15px] font-semibold text-ink">
+                  15s – 1h
+                </dd>
               </div>
               <div class="bg-bg px-4 py-4">
-                <dt class="text-[11px] font-semibold tracking-widest text-ink-faint uppercase">
+                <dt
+                  class="text-[11px] font-semibold tracking-widest text-ink-faint uppercase"
+                >
                   Android
                 </dt>
-                <dd class="mt-1 font-mono text-[15px] font-semibold text-ink">7.0+</dd>
+                <dd class="mt-1 font-mono text-[15px] font-semibold text-ink">
+                  7.0+
+                </dd>
               </div>
               <div class="bg-bg px-4 py-4">
-                <dt class="text-[11px] font-semibold tracking-widest text-ink-faint uppercase">
+                <dt
+                  class="text-[11px] font-semibold tracking-widest text-ink-faint uppercase"
+                >
                   Network
                 </dt>
-                <dd class="mt-1 font-mono text-[15px] font-semibold text-accent">None</dd>
+                <dd
+                  class="mt-1 font-mono text-[15px] font-semibold text-accent"
+                >
+                  None
+                </dd>
               </div>
             </dl>
           </div>
@@ -279,7 +2304,9 @@
 
                 <div class="flex items-start justify-between px-5 pt-8 pb-1">
                   <div>
-                    <p class="text-[11px] font-semibold tracking-tight text-white/55">
+                    <p
+                      class="text-[11px] font-semibold tracking-tight text-white/55"
+                    >
                       Stilltime
                     </p>
                     <p class="text-[9px] text-white/30">Screen off timeout</p>
@@ -290,8 +2317,14 @@
                   >
                 </div>
 
-                <div class="flex flex-1 flex-col items-center justify-center gap-5 px-5">
-                  <div class="relative grid place-items-center" data-dial data-fill="0.36">
+                <div
+                  class="flex flex-1 flex-col items-center justify-center gap-5 px-5"
+                >
+                  <div
+                    class="relative grid place-items-center"
+                    data-dial
+                    data-fill="0.36"
+                  >
                     <div class="dial"></div>
                     <div class="tick-layer" data-ticks aria-hidden="true"></div>
                     <div
@@ -308,7 +2341,9 @@
                         >
                           5m
                         </p>
-                        <p class="mt-1 text-[8px] font-medium text-white/35">in sync</p>
+                        <p class="mt-1 text-[8px] font-medium text-white/35">
+                          in sync
+                        </p>
                       </div>
                     </div>
                   </div>
@@ -350,7 +2385,9 @@
         <div class="mx-auto max-w-6xl px-5 sm:px-8">
           <div class="grid gap-14 lg:grid-cols-[0.95fr_1.05fr] lg:items-center">
             <div>
-              <p class="reveal text-xs font-bold tracking-[0.16em] text-accent uppercase">
+              <p
+                class="reveal text-xs font-bold tracking-[0.16em] text-accent uppercase"
+              >
                 The part most apps skip
               </p>
               <h2
@@ -363,16 +2400,19 @@
                 class="reveal mt-5 text-[16.5px] leading-relaxed text-ink-muted"
                 style="transition-delay: 120ms"
               >
-                “I set it to 10 minutes” and “my phone now sleeps after 10 minutes” are two different
-                claims. On plenty of devices a battery manager or a manufacturer policy quietly
-                discards the change — and <span class="font-mono text-[15px]">putInt</span> still
-                returns <span class="font-mono text-[15px]">true</span>.
+                “I set it to 10 minutes” and “my phone now sleeps after 10
+                minutes” are two different claims. On plenty of devices a
+                battery manager or a manufacturer policy quietly discards the
+                change — and
+                <span class="font-mono text-[15px]">putInt</span> still returns
+                <span class="font-mono text-[15px]">true</span>.
               </p>
               <p
                 class="reveal mt-4 text-[16.5px] leading-relaxed text-ink-muted"
                 style="transition-delay: 160ms"
               >
-                So Stilltime keeps three numbers and never pretends they are the same.
+                So Stilltime keeps three numbers and never pretends they are the
+                same.
               </p>
             </div>
 
@@ -387,7 +2427,8 @@
                 <div>
                   <p class="font-semibold tracking-tight">Requested</p>
                   <p class="mt-1 text-[14.5px] leading-relaxed text-ink-muted">
-                    What you turned the dial to. Never shown as if it already happened.
+                    What you turned the dial to. Never shown as if it already
+                    happened.
                   </p>
                 </div>
               </li>
@@ -402,8 +2443,9 @@
                 <div>
                   <p class="font-semibold tracking-tight">Applied</p>
                   <p class="mt-1 text-[14.5px] leading-relaxed text-ink-muted">
-                    What Stilltime wrote <em>and read back</em>. If the read-back disagrees, it reports
-                    failure instead of claiming success.
+                    What Stilltime wrote <em>and read back</em>. If the
+                    read-back disagrees, it reports failure instead of claiming
+                    success.
                   </p>
                 </div>
               </li>
@@ -418,8 +2460,8 @@
                 <div>
                   <p class="font-semibold tracking-tight">Observed</p>
                   <p class="mt-1 text-[14.5px] leading-relaxed text-ink-muted">
-                    What the device holds right now, read live. This is the one that is allowed to
-                    call itself the truth.
+                    What the device holds right now, read live. This is the one
+                    that is allowed to call itself the truth.
                   </p>
                 </div>
               </li>
@@ -432,7 +2474,9 @@
       <section id="how" class="py-20 sm:py-28">
         <div class="mx-auto max-w-6xl px-5 sm:px-8">
           <div class="max-w-2xl">
-            <p class="reveal text-xs font-bold tracking-[0.16em] text-accent uppercase">
+            <p
+              class="reveal text-xs font-bold tracking-[0.16em] text-accent uppercase"
+            >
               How it works
             </p>
             <h2
@@ -445,8 +2489,9 @@
               class="reveal mt-5 text-[16.5px] leading-relaxed text-ink-muted"
               style="transition-delay: 120ms"
             >
-              No root, no setup, no account. The only friction is a permission Android requires for
-              every app that wants to change a system setting.
+              No root, no setup, no account. The only friction is a permission
+              Android requires for every app that wants to change a system
+              setting.
             </p>
           </div>
 
@@ -472,17 +2517,22 @@
                     stroke-linejoin="round"
                     aria-hidden="true"
                   >
-                    <path d="M12 2.8 4.5 6v5.4c0 4.6 3.1 8.5 7.5 9.8 4.4-1.3 7.5-5.2 7.5-9.8V6L12 2.8Z" />
+                    <path
+                      d="M12 2.8 4.5 6v5.4c0 4.6 3.1 8.5 7.5 9.8 4.4-1.3 7.5-5.2 7.5-9.8V6L12 2.8Z"
+                    />
                     <path d="m9.2 12 2 2 3.6-3.8" />
                   </svg>
                 </span>
                 <span class="font-mono text-xs text-ink-faint">STEP 01</span>
               </div>
-              <h3 class="mt-5 text-lg font-bold tracking-tight">Grant the permission</h3>
+              <h3 class="mt-5 text-lg font-bold tracking-tight">
+                Grant the permission
+              </h3>
               <p class="mt-2.5 text-[15px] leading-relaxed text-ink-muted">
-                Android exposes “Modify system settings” as a revocable grant, not a popup. Tap once
-                and a system screen naming Stilltime opens — nothing is ever granted silently, and
-                you can take it back the same way.
+                Android exposes “Modify system settings” as a revocable grant,
+                not a popup. Tap once and a system screen naming Stilltime opens
+                — nothing is ever granted silently, and you can take it back the
+                same way.
               </p>
             </li>
 
@@ -514,11 +2564,14 @@
                 </span>
                 <span class="font-mono text-xs text-ink-faint">STEP 02</span>
               </div>
-              <h3 class="mt-5 text-lg font-bold tracking-tight">Turn the dial</h3>
+              <h3 class="mt-5 text-lg font-bold tracking-tight">
+                Turn the dial
+              </h3>
               <p class="mt-2.5 text-[15px] leading-relaxed text-ink-muted">
-                The full circle covers the whole range, from 15 seconds to 1 hour. The scale is
-                logarithmic, so a short timeout gets as much of the dial as a long one — no more
-                crawling through a dead zone of minutes. Or just tap a preset.
+                The full circle covers the whole range, from 15 seconds to 1
+                hour. The scale is logarithmic, so a short timeout gets as much
+                of the dial as a long one — no more crawling through a dead zone
+                of minutes. Or just tap a preset.
               </p>
             </li>
 
@@ -549,11 +2602,13 @@
                 </span>
                 <span class="font-mono text-xs text-ink-faint">STEP 03</span>
               </div>
-              <h3 class="mt-5 text-lg font-bold tracking-tight">Apply, then verify</h3>
+              <h3 class="mt-5 text-lg font-bold tracking-tight">
+                Apply, then verify
+              </h3>
               <p class="mt-2.5 text-[15px] leading-relaxed text-ink-muted">
-                Stilltime writes the value and immediately reads it back. If a battery manager threw
-                the change away, you find out here — with the live Battery Saver, Doze and OEM
-                signals that explain why.
+                Stilltime writes the value and immediately reads it back. If a
+                battery manager threw the change away, you find out here — with
+                the live Battery Saver, Doze and OEM signals that explain why.
               </p>
             </li>
           </ol>
@@ -561,10 +2616,15 @@
       </section>
 
       <!-- ============================ When to use it ============================ -->
-      <section id="when" class="border-y border-line-soft bg-bg-soft py-20 sm:py-28">
+      <section
+        id="when"
+        class="border-y border-line-soft bg-bg-soft py-20 sm:py-28"
+      >
         <div class="mx-auto max-w-6xl px-5 sm:px-8">
           <div class="max-w-2xl">
-            <p class="reveal text-xs font-bold tracking-[0.16em] text-accent uppercase">
+            <p
+              class="reveal text-xs font-bold tracking-[0.16em] text-accent uppercase"
+            >
               When it earns its place
             </p>
             <h2
@@ -576,81 +2636,184 @@
           </div>
 
           <div class="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-            <article class="reveal tilt rounded-2xl border border-line bg-surface p-6">
-              <span class="grid size-9 place-items-center rounded-lg border border-line bg-bg text-accent">
-                <svg viewBox="0 0 24 24" class="size-4.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <article
+              class="reveal tilt rounded-2xl border border-line bg-surface p-6"
+            >
+              <span
+                class="grid size-9 place-items-center rounded-lg border border-line bg-bg text-accent"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  class="size-4.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
                   <path d="M4 7.5h16M4 12h16M4 16.5h10" />
                 </svg>
               </span>
-              <h3 class="mt-4 font-bold tracking-tight">Long builds and downloads</h3>
+              <h3 class="mt-4 font-bold tracking-tight">
+                Long builds and downloads
+              </h3>
               <p class="mt-2 text-[14.5px] leading-relaxed text-ink-muted">
-                Wipe a device, flash firmware, leave a render going. Set 15 or 30 minutes and stop
-                re-waking the screen.
+                Wipe a device, flash firmware, leave a render going. Set 15 or
+                30 minutes and stop re-waking the screen.
               </p>
             </article>
 
-            <article class="reveal tilt rounded-2xl border border-line bg-surface p-6" style="transition-delay: 60ms">
-              <span class="grid size-9 place-items-center rounded-lg border border-line bg-bg text-accent">
-                <svg viewBox="0 0 24 24" class="size-4.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M4 5.5h16v11H4z" /><path d="M9 20h6M12 16.5V20" />
+            <article
+              class="reveal tilt rounded-2xl border border-line bg-surface p-6"
+              style="transition-delay: 60ms"
+            >
+              <span
+                class="grid size-9 place-items-center rounded-lg border border-line bg-bg text-accent"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  class="size-4.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M4 5.5h16v11H4z" />
+                  <path d="M9 20h6M12 16.5V20" />
                 </svg>
               </span>
-              <h3 class="mt-4 font-bold tracking-tight">Reading, recipes, calls</h3>
+              <h3 class="mt-4 font-bold tracking-tight">
+                Reading, recipes, calls
+              </h3>
               <p class="mt-2 text-[14.5px] leading-relaxed text-ink-muted">
-                Start <strong class="font-semibold text-ink">Stay Awake</strong> and the screen holds
-                for 30 minutes, then puts your original value back by itself.
+                Start
+                <strong class="font-semibold text-ink">Stay Awake</strong> and
+                the screen holds for 30 minutes, then puts your original value
+                back by itself.
               </p>
             </article>
 
-            <article class="reveal tilt rounded-2xl border border-line bg-surface p-6" style="transition-delay: 120ms">
-              <span class="grid size-9 place-items-center rounded-lg border border-line bg-bg text-accent">
-                <svg viewBox="0 0 24 24" class="size-4.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M3.5 4.5h17v11h-17z" /><path d="M12 15.5v4M8.5 19.5h7" />
+            <article
+              class="reveal tilt rounded-2xl border border-line bg-surface p-6"
+              style="transition-delay: 120ms"
+            >
+              <span
+                class="grid size-9 place-items-center rounded-lg border border-line bg-bg text-accent"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  class="size-4.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path d="M3.5 4.5h17v11h-17z" />
+                  <path d="M12 15.5v4M8.5 19.5h7" />
                 </svg>
               </span>
-              <h3 class="mt-4 font-bold tracking-tight">Presenting or mirroring</h3>
+              <h3 class="mt-4 font-bold tracking-tight">
+                Presenting or mirroring
+              </h3>
               <p class="mt-2 text-[14.5px] leading-relaxed text-ink-muted">
-                Demos, screen sharing, casting to a TV. The last thing you want mid-talk is a black
-                screen.
+                Demos, screen sharing, casting to a TV. The last thing you want
+                mid-talk is a black screen.
               </p>
             </article>
 
-            <article class="reveal tilt rounded-2xl border border-line bg-surface p-6">
-              <span class="grid size-9 place-items-center rounded-lg border border-line bg-bg text-accent">
-                <svg viewBox="0 0 24 24" class="size-4.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M12 21s-7.5-4.4-7.5-9.6A4.4 4.4 0 0 1 12 8.2a4.4 4.4 0 0 1 7.5 3.2C19.5 16.6 12 21 12 21Z" />
+            <article
+              class="reveal tilt rounded-2xl border border-line bg-surface p-6"
+            >
+              <span
+                class="grid size-9 place-items-center rounded-lg border border-line bg-bg text-accent"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  class="size-4.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M12 21s-7.5-4.4-7.5-9.6A4.4 4.4 0 0 1 12 8.2a4.4 4.4 0 0 1 7.5 3.2C19.5 16.6 12 21 12 21Z"
+                  />
                 </svg>
               </span>
-              <h3 class="mt-4 font-bold tracking-tight">Someone else's phone</h3>
+              <h3 class="mt-4 font-bold tracking-tight">
+                Someone else's phone
+              </h3>
               <p class="mt-2 text-[14.5px] leading-relaxed text-ink-muted">
-                Setting it for a parent or a child used to mean walking them through six levels of
-                Settings. Now it's a dial.
+                Setting it for a parent or a child used to mean walking them
+                through six levels of Settings. Now it's a dial.
               </p>
             </article>
 
-            <article class="reveal tilt rounded-2xl border border-line bg-surface p-6" style="transition-delay: 60ms">
-              <span class="grid size-9 place-items-center rounded-lg border border-line bg-bg text-accent">
-                <svg viewBox="0 0 24 24" class="size-4.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <article
+              class="reveal tilt rounded-2xl border border-line bg-surface p-6"
+              style="transition-delay: 60ms"
+            >
+              <span
+                class="grid size-9 place-items-center rounded-lg border border-line bg-bg text-accent"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  class="size-4.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
                   <path d="M13 2.5 5 13.5h6l-1 8 8-11h-6l1-8Z" />
                 </svg>
               </span>
               <h3 class="mt-4 font-bold tracking-tight">Saving battery</h3>
               <p class="mt-2 text-[14.5px] leading-relaxed text-ink-muted">
-                15 seconds instead of 10 minutes adds up. Nothing on the device wakes up unless you
-                touch it.
+                15 seconds instead of 10 minutes adds up. Nothing on the device
+                wakes up unless you touch it.
               </p>
             </article>
 
-            <article class="reveal tilt rounded-2xl border border-line bg-surface p-6" style="transition-delay: 120ms">
-              <span class="grid size-9 place-items-center rounded-lg border border-line bg-bg text-accent">
-                <svg viewBox="0 0 24 24" class="size-4.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M9 3.5v5.2L4.6 17a2 2 0 0 0 1.8 3h11.2a2 2 0 0 0 1.8-3L15 8.7V3.5" /><path d="M7.5 3.5h9" />
+            <article
+              class="reveal tilt rounded-2xl border border-line bg-surface p-6"
+              style="transition-delay: 120ms"
+            >
+              <span
+                class="grid size-9 place-items-center rounded-lg border border-line bg-bg text-accent"
+              >
+                <svg
+                  viewBox="0 0 24 24"
+                  class="size-4.5"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="1.7"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  aria-hidden="true"
+                >
+                  <path
+                    d="M9 3.5v5.2L4.6 17a2 2 0 0 0 1.8 3h11.2a2 2 0 0 0 1.8-3L15 8.7V3.5"
+                  />
+                  <path d="M7.5 3.5h9" />
                 </svg>
               </span>
-              <h3 class="mt-4 font-bold tracking-tight">From the home screen</h3>
+              <h3 class="mt-4 font-bold tracking-tight">
+                From the home screen
+              </h3>
               <p class="mt-2 text-[14.5px] leading-relaxed text-ink-muted">
-                The widget renders with <span class="font-mono text-[13.5px]">RemoteViews</span>, so
-                quick presets and Stay&nbsp;Awake keep working when the app itself is closed.
+                The widget renders with
+                <span class="font-mono text-[13.5px]">RemoteViews</span>, so
+                quick presets and Stay&nbsp;Awake keep working when the app
+                itself is closed.
               </p>
             </article>
           </div>
@@ -661,7 +2824,11 @@
       <section id="features" class="py-20 sm:py-28">
         <div class="mx-auto max-w-6xl px-5 sm:px-8">
           <div class="max-w-2xl">
-            <p class="reveal text-xs font-bold tracking-[0.16em] text-accent uppercase">Features</p>
+            <p
+              class="reveal text-xs font-bold tracking-[0.16em] text-accent uppercase"
+            >
+              Features
+            </p>
             <h2
               class="reveal mt-4 text-[clamp(1.9rem,4vw,2.7rem)] font-extrabold leading-[1.1] tracking-[-0.03em]"
               style="transition-delay: 60ms"
@@ -672,53 +2839,58 @@
               class="reveal mt-5 text-[16.5px] leading-relaxed text-ink-muted"
               style="transition-delay: 120ms"
             >
-              No background service, no wake lock, no analytics, no network code in the release
-              binary at all.
+              No background service, no wake lock, no analytics, no network code
+              in the release binary at all.
             </p>
           </div>
 
-          <div class="mt-14 grid gap-px overflow-hidden rounded-2xl border border-line bg-line sm:grid-cols-2 lg:grid-cols-3">
+          <div
+            class="mt-14 grid gap-px overflow-hidden rounded-2xl border border-line bg-line sm:grid-cols-2 lg:grid-cols-3"
+          >
             <div class="reveal bg-bg p-7">
               <h3 class="font-bold tracking-tight">Logarithmic dial</h3>
               <p class="mt-2.5 text-[14.5px] leading-relaxed text-ink-muted">
-                Equal distance means equal ratio, so 15s→30s gets the same arc as 15m→30m. Fully
-                operable by screen reader and arrow keys.
+                Equal distance means equal ratio, so 15s→30s gets the same arc
+                as 15m→30m. Fully operable by screen reader and arrow keys.
               </p>
             </div>
             <div class="reveal bg-bg p-7" style="transition-delay: 50ms">
               <h3 class="font-bold tracking-tight">Stay Awake</h3>
               <p class="mt-2.5 text-[14.5px] leading-relaxed text-ink-muted">
-                A 30-minute session that remembers your old value and restores it. If you change the
-                timeout elsewhere mid-session, it refuses to overwrite your choice.
+                A 30-minute session that remembers your old value and restores
+                it. If you change the timeout elsewhere mid-session, it refuses
+                to overwrite your choice.
               </p>
             </div>
             <div class="reveal bg-bg p-7" style="transition-delay: 100ms">
               <h3 class="font-bold tracking-tight">Home-screen widget</h3>
               <p class="mt-2.5 text-[14.5px] leading-relaxed text-ink-muted">
-                Quick presets and a Stay Awake toggle, drawn without the React Native runtime so it
-                survives the app being killed.
+                Quick presets and a Stay Awake toggle, drawn without the React
+                Native runtime so it survives the app being killed.
               </p>
             </div>
             <div class="reveal bg-bg p-7">
               <h3 class="font-bold tracking-tight">Power diagnostics</h3>
               <p class="mt-2.5 text-[14.5px] leading-relaxed text-ink-muted">
-                Live Battery Saver, Doze, battery-optimisation and OEM state, plus an explanation of
-                which one is most likely deferring your write.
+                Live Battery Saver, Doze, battery-optimisation and OEM state,
+                plus an explanation of which one is most likely deferring your
+                write.
               </p>
             </div>
             <div class="reveal bg-bg p-7" style="transition-delay: 50ms">
               <h3 class="font-bold tracking-tight">Screen-off test</h3>
               <p class="mt-2.5 text-[14.5px] leading-relaxed text-ink-muted">
-                Hidden behind seven taps on the build version. It listens for the system broadcast
-                that fires when the screen actually goes dark and compares the real elapsed time
-                against what you asked for.
+                Hidden behind seven taps on the build version. It listens for
+                the system broadcast that fires when the screen actually goes
+                dark and compares the real elapsed time against what you asked
+                for.
               </p>
             </div>
             <div class="reveal bg-bg p-7" style="transition-delay: 100ms">
               <h3 class="font-bold tracking-tight">In-app transparency</h3>
               <p class="mt-2.5 text-[14.5px] leading-relaxed text-ink-muted">
-                How-to-use, permissions, security notes, privacy and terms pages ship inside the app
-                — readable without leaving it.
+                How-to-use, permissions, security notes, privacy and terms pages
+                ship inside the app — readable without leaving it.
               </p>
             </div>
           </div>
@@ -730,7 +2902,9 @@
         <div class="mx-auto max-w-6xl px-5 sm:px-8">
           <div class="grid gap-14 lg:grid-cols-2 lg:items-center">
             <div>
-              <p class="reveal text-xs font-bold tracking-[0.16em] text-accent uppercase">
+              <p
+                class="reveal text-xs font-bold tracking-[0.16em] text-accent uppercase"
+              >
                 For the sceptical
               </p>
               <h2
@@ -743,35 +2917,44 @@
                 class="reveal mt-5 text-[16.5px] leading-relaxed text-ink-muted"
                 style="transition-delay: 120ms"
               >
-                A read-back proves the value was <em>accepted</em>. It does not prove the device will
-                <em>act</em> on it. Stilltime can close that gap: Android broadcasts
-                <span class="font-mono text-[15px]">ACTION_SCREEN_OFF</span> to any app listening for
-                it, so the app can time the real thing.
+                A read-back proves the value was <em>accepted</em>. It does not
+                prove the device will <em>act</em> on it. Stilltime can close
+                that gap: Android broadcasts
+                <span class="font-mono text-[15px]">ACTION_SCREEN_OFF</span> to
+                any app listening for it, so the app can time the real thing.
               </p>
               <p
                 class="reveal mt-4 text-[16.5px] leading-relaxed text-ink-muted"
                 style="transition-delay: 160ms"
               >
-                Run the quick test, leave the phone alone, and come back. It tells you the exact
-                duration before dark, the difference from what you asked for, and — if it ran short —
-                that something else changed the setting back.
+                Run the quick test, leave the phone alone, and come back. It
+                tells you the exact duration before dark, the difference from
+                what you asked for, and — if it ran short — that something else
+                changed the setting back.
               </p>
               <p
                 class="reveal mt-4 text-[14.5px] leading-relaxed text-ink-faint"
                 style="transition-delay: 200ms"
               >
-                It refuses to print a number when the run was invalidated, because Android restarts
-                its idle timer on any touch. An honest blank beats a confident wrong number.
+                It refuses to print a number when the run was invalidated,
+                because Android restarts its idle timer on any touch. An honest
+                blank beats a confident wrong number.
               </p>
             </div>
 
             <div class="reveal">
-              <div class="rounded-2xl border border-line bg-surface p-6 font-mono text-[13px]">
-                <div class="flex items-center gap-2 border-b border-line-soft pb-4">
+              <div
+                class="rounded-2xl border border-line bg-surface p-6 font-mono text-[13px]"
+              >
+                <div
+                  class="flex items-center gap-2 border-b border-line-soft pb-4"
+                >
                   <span class="size-2.5 rounded-full bg-danger/70"></span>
                   <span class="size-2.5 rounded-full bg-warn/70"></span>
                   <span class="size-2.5 rounded-full bg-accent/70"></span>
-                  <span class="ml-2 text-[11px] text-ink-faint">screen-off test</span>
+                  <span class="ml-2 text-[11px] text-ink-faint"
+                    >screen-off test</span
+                  >
                 </div>
 
                 <dl class="mt-5 space-y-3.5">
@@ -796,22 +2979,28 @@
                 <p
                   class="mt-6 rounded-xl border border-accent/30 bg-accent-soft p-4 font-sans text-[14px] leading-relaxed text-ink"
                 >
-                  <strong class="font-bold text-accent">The device is honouring your timeout.</strong>
-                  The screen went off after 15.3s of no input, against a timeout of 15.0s. That is
-                  0.3s later, within the 2.3s tolerance.
+                  <strong class="font-bold text-accent"
+                    >The device is honouring your timeout.</strong
+                  >
+                  The screen went off after 15.3s of no input, against a timeout
+                  of 15.0s. That is 0.3s later, within the 2.3s tolerance.
                 </p>
 
                 <div class="mt-6 flex flex-wrap gap-2 font-sans text-[11px]">
-                  <span class="rounded-md border border-line px-2.5 py-1 text-ink-muted"
+                  <span
+                    class="rounded-md border border-line px-2.5 py-1 text-ink-muted"
                     >elapsedRealtime</span
                   >
-                  <span class="rounded-md border border-line px-2.5 py-1 text-ink-muted"
+                  <span
+                    class="rounded-md border border-line px-2.5 py-1 text-ink-muted"
                     >ACTION_SCREEN_OFF</span
                   >
-                  <span class="rounded-md border border-line px-2.5 py-1 text-ink-muted"
+                  <span
+                    class="rounded-md border border-line px-2.5 py-1 text-ink-muted"
                     >commit(), not apply()</span
                   >
-                  <span class="rounded-md border border-line px-2.5 py-1 text-ink-muted"
+                  <span
+                    class="rounded-md border border-line px-2.5 py-1 text-ink-muted"
                     >restore inside onReceive</span
                   >
                 </div>
@@ -825,7 +3014,9 @@
       <section id="transparency" class="py-20 sm:py-28">
         <div class="mx-auto max-w-6xl px-5 sm:px-8">
           <div class="max-w-2xl">
-            <p class="reveal text-xs font-bold tracking-[0.16em] text-accent uppercase">
+            <p
+              class="reveal text-xs font-bold tracking-[0.16em] text-accent uppercase"
+            >
               Transparency
             </p>
             <h2
@@ -839,8 +3030,19 @@
           <div class="mt-12 grid gap-4 lg:grid-cols-2">
             <div class="reveal rounded-2xl border border-line bg-surface p-7">
               <div class="flex items-center gap-2.5">
-                <span class="grid size-8 place-items-center rounded-lg bg-accent-soft text-accent">
-                  <svg viewBox="0 0 24 24" class="size-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <span
+                  class="grid size-8 place-items-center rounded-lg bg-accent-soft text-accent"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    class="size-4"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    aria-hidden="true"
+                  >
                     <path d="M20 7.5 9.5 18 4 12.5" />
                   </svg>
                 </span>
@@ -848,31 +3050,51 @@
               </div>
               <ul class="mt-5 space-y-4">
                 <li>
-                  <p class="font-mono text-[13px] font-semibold text-accent">WRITE_SETTINGS</p>
+                  <p class="font-mono text-[13px] font-semibold text-accent">
+                    WRITE_SETTINGS
+                  </p>
                   <p class="mt-1 text-[14.5px] leading-relaxed text-ink-muted">
-                    The only one it truly needs. Android requires it before any app may write
-                    <span class="font-mono text-[13px]">SCREEN_OFF_TIMEOUT</span>. Used for that one
-                    key and nothing else.
+                    The only one it truly needs. Android requires it before any
+                    app may write
+                    <span class="font-mono text-[13px]">SCREEN_OFF_TIMEOUT</span
+                    >. Used for that one key and nothing else.
                   </p>
                 </li>
                 <li>
-                  <p class="font-mono text-[13px] font-semibold text-accent">VIBRATE</p>
+                  <p class="font-mono text-[13px] font-semibold text-accent">
+                    VIBRATE
+                  </p>
                   <p class="mt-1 text-[14.5px] leading-relaxed text-ink-muted">
-                    The small tap when you cross a dial detent or finish a write. Android refuses to
-                    vibrate without it.
+                    The small tap when you cross a dial detent or finish a
+                    write. Android refuses to vibrate without it.
                   </p>
                 </li>
               </ul>
             </div>
 
-            <div class="reveal rounded-2xl border border-line bg-surface p-7" style="transition-delay: 80ms">
+            <div
+              class="reveal rounded-2xl border border-line bg-surface p-7"
+              style="transition-delay: 80ms"
+            >
               <div class="flex items-center gap-2.5">
-                <span class="grid size-8 place-items-center rounded-lg bg-surface-2 text-ink-muted">
-                  <svg viewBox="0 0 24 24" class="size-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
+                <span
+                  class="grid size-8 place-items-center rounded-lg bg-surface-2 text-ink-muted"
+                >
+                  <svg
+                    viewBox="0 0 24 24"
+                    class="size-4"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    aria-hidden="true"
+                  >
                     <path d="M5.5 5.5l13 13M18.5 5.5l-13 13" />
                   </svg>
                 </span>
-                <h3 class="font-bold tracking-tight">And what it never asks for</h3>
+                <h3 class="font-bold tracking-tight">
+                  And what it never asks for
+                </h3>
               </div>
               <ul class="mt-5 grid gap-2 sm:grid-cols-2">
                 <li
@@ -907,38 +3129,67 @@
                 </li>
               </ul>
               <p class="mt-5 text-[14.5px] leading-relaxed text-ink-muted">
-                A release build declares no <span class="font-mono text-[13px]">INTERNET</span>
-                permission at all, so it is structurally incapable of making a network request —
-                not merely choosing not to. You can check this yourself in the merged manifest.
+                A release build declares no
+                <span class="font-mono text-[13px]">INTERNET</span>
+                permission at all, so it is structurally incapable of making a
+                network request — not merely choosing not to. You can check this
+                yourself in the merged manifest.
               </p>
             </div>
           </div>
 
           <div class="mt-4 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
             <div class="reveal rounded-2xl border border-line bg-bg-soft p-5">
-              <p class="font-mono text-[12px] tracking-widest text-ink-faint uppercase">Storage</p>
+              <p
+                class="font-mono text-[12px] tracking-widest text-ink-faint uppercase"
+              >
+                Storage
+              </p>
               <p class="mt-2.5 text-[14.5px] leading-relaxed text-ink-muted">
-                One private <span class="font-mono text-[13px]">SharedPreferences</span> file in the
-                app sandbox. Uninstall and it's gone.
+                One private
+                <span class="font-mono text-[13px]">SharedPreferences</span>
+                file in the app sandbox. Uninstall and it's gone.
               </p>
             </div>
-            <div class="reveal rounded-2xl border border-line bg-bg-soft p-5" style="transition-delay: 60ms">
-              <p class="font-mono text-[12px] tracking-widest text-ink-faint uppercase">Background</p>
+            <div
+              class="reveal rounded-2xl border border-line bg-bg-soft p-5"
+              style="transition-delay: 60ms"
+            >
+              <p
+                class="font-mono text-[12px] tracking-widest text-ink-faint uppercase"
+              >
+                Background
+              </p>
               <p class="mt-2.5 text-[14.5px] leading-relaxed text-ink-muted">
                 No service, no wake lock, no alarms. Closed means closed.
               </p>
             </div>
-            <div class="reveal rounded-2xl border border-line bg-bg-soft p-5" style="transition-delay: 120ms">
-              <p class="font-mono text-[12px] tracking-widest text-ink-faint uppercase">Escalation</p>
+            <div
+              class="reveal rounded-2xl border border-line bg-bg-soft p-5"
+              style="transition-delay: 120ms"
+            >
+              <p
+                class="font-mono text-[12px] tracking-widest text-ink-faint uppercase"
+              >
+                Escalation
+              </p>
               <p class="mt-2.5 text-[14.5px] leading-relaxed text-ink-muted">
-                No root, no hidden APIs, no accessibility service, no device admin.
+                No root, no hidden APIs, no accessibility service, no device
+                admin.
               </p>
             </div>
-            <div class="reveal rounded-2xl border border-line bg-bg-soft p-5" style="transition-delay: 180ms">
-              <p class="font-mono text-[12px] tracking-widest text-ink-faint uppercase">Telemetry</p>
+            <div
+              class="reveal rounded-2xl border border-line bg-bg-soft p-5"
+              style="transition-delay: 180ms"
+            >
+              <p
+                class="font-mono text-[12px] tracking-widest text-ink-faint uppercase"
+              >
+                Telemetry
+              </p>
               <p class="mt-2.5 text-[14.5px] leading-relaxed text-ink-muted">
-                No analytics, no crash reports, no update pings. There is nowhere for it to send
-                anything.
+                No analytics, no crash reports, no update pings. There is
+                nowhere for it to send anything.
               </p>
             </div>
           </div>
@@ -949,7 +3200,11 @@
       <section id="faq" class="border-t border-line-soft py-20 sm:py-28">
         <div class="mx-auto max-w-3xl px-5 sm:px-8">
           <div class="max-w-2xl">
-            <p class="reveal text-xs font-bold tracking-[0.16em] text-accent uppercase">FAQ</p>
+            <p
+              class="reveal text-xs font-bold tracking-[0.16em] text-accent uppercase"
+            >
+              FAQ
+            </p>
             <h2
               class="reveal mt-4 text-[clamp(1.9rem,4vw,2.7rem)] font-extrabold leading-[1.1] tracking-[-0.03em]"
               style="transition-delay: 60ms"
@@ -958,14 +3213,18 @@
             </h2>
           </div>
 
-          <div class="mt-10 divide-y divide-line-soft border-y border-line-soft">
+          <div
+            class="mt-10 divide-y divide-line-soft border-y border-line-soft"
+          >
             <div class="acc-item py-1" data-open="false">
               <button
                 type="button"
                 class="flex w-full items-center justify-between gap-4 py-5 text-left"
                 aria-expanded="false"
               >
-                <span class="font-semibold tracking-tight">Does it need root?</span>
+                <span class="font-semibold tracking-tight"
+                  >Does it need root?</span
+                >
                 <svg
                   viewBox="0 0 24 24"
                   class="acc-chevron size-5 shrink-0 text-ink-faint"
@@ -982,8 +3241,9 @@
               <div class="acc-panel">
                 <div>
                   <p class="pb-5 text-[15px] leading-relaxed text-ink-muted">
-                    No. It uses the same public Android API any app can call, gated by one permission
-                    you grant yourself. No Magisk, no shell, no framework internals.
+                    No. It uses the same public Android API any app can call,
+                    gated by one permission you grant yourself. No Magisk, no
+                    shell, no framework internals.
                   </p>
                 </div>
               </div>
@@ -1014,10 +3274,11 @@
               <div class="acc-panel">
                 <div>
                   <p class="pb-5 text-[15px] leading-relaxed text-ink-muted">
-                    Because that is where the screen timeout lives. Android treats it as a protected
-                    system setting, so no app may change it without this revocable grant. Android
-                    always shows you a system screen naming Stilltime, so nothing happens silently —
-                    and you can revoke it in one tap.
+                    Because that is where the screen timeout lives. Android
+                    treats it as a protected system setting, so no app may
+                    change it without this revocable grant. Android always shows
+                    you a system screen naming Stilltime, so nothing happens
+                    silently — and you can revoke it in one tap.
                   </p>
                 </div>
               </div>
@@ -1029,7 +3290,9 @@
                 class="flex w-full items-center justify-between gap-4 py-5 text-left"
                 aria-expanded="false"
               >
-                <span class="font-semibold tracking-tight">Does it drain my battery?</span>
+                <span class="font-semibold tracking-tight"
+                  >Does it drain my battery?</span
+                >
                 <svg
                   viewBox="0 0 24 24"
                   class="acc-chevron size-5 shrink-0 text-ink-faint"
@@ -1046,10 +3309,12 @@
               <div class="acc-panel">
                 <div>
                   <p class="pb-5 text-[15px] leading-relaxed text-ink-muted">
-                    The app holds nothing: no foreground service, no wake lock, no
-                    <span class="font-mono text-[13.5px]">KEEP_SCREEN_ON</span>, no background
-                    retries. The only battery effect is the timeout value itself — and if you set it
-                    short, you save power.
+                    The app holds nothing: no foreground service, no wake lock,
+                    no
+                    <span class="font-mono text-[13.5px]">KEEP_SCREEN_ON</span>,
+                    no background retries. The only battery effect is the
+                    timeout value itself — and if you set it short, you save
+                    power.
                   </p>
                 </div>
               </div>
@@ -1061,7 +3326,9 @@
                 class="flex w-full items-center justify-between gap-4 py-5 text-left"
                 aria-expanded="false"
               >
-                <span class="font-semibold tracking-tight">My phone ignores the new value.</span>
+                <span class="font-semibold tracking-tight"
+                  >My phone ignores the new value.</span
+                >
                 <svg
                   viewBox="0 0 24 24"
                   class="acc-chevron size-5 shrink-0 text-ink-faint"
@@ -1078,10 +3345,14 @@
               <div class="acc-panel">
                 <div>
                   <p class="pb-5 text-[15px] leading-relaxed text-ink-muted">
-                    That happens on some OEM builds. Open <strong class="font-semibold text-ink">Power
-                    &amp; permissions</strong> — it shows live Battery Saver, Doze, battery-optimisation
-                    and manufacturer state and names the likely culprit. For a definitive answer, run
-                    the screen-off test (seven taps on the build version) to see the real duration.
+                    That happens on some OEM builds. Open
+                    <strong class="font-semibold text-ink"
+                      >Power &amp; permissions</strong
+                    >
+                    — it shows live Battery Saver, Doze, battery-optimisation
+                    and manufacturer state and names the likely culprit. For a
+                    definitive answer, run the screen-off test (seven taps on
+                    the build version) to see the real duration.
                   </p>
                 </div>
               </div>
@@ -1093,7 +3364,9 @@
                 class="flex w-full items-center justify-between gap-4 py-5 text-left"
                 aria-expanded="false"
               >
-                <span class="font-semibold tracking-tight">Will it survive a reboot?</span>
+                <span class="font-semibold tracking-tight"
+                  >Will it survive a reboot?</span
+                >
                 <svg
                   viewBox="0 0 24 24"
                   class="acc-chevron size-5 shrink-0 text-ink-faint"
@@ -1110,9 +3383,10 @@
               <div class="acc-panel">
                 <div>
                   <p class="pb-5 text-[15px] leading-relaxed text-ink-muted">
-                    Yes. The timeout is a system setting, so it persists on its own — Stilltime doesn't
-                    need to run to maintain it. If your manufacturer resets it on reboot, the app will
-                    show you that on next launch rather than silently re-applying it.
+                    Yes. The timeout is a system setting, so it persists on its
+                    own — Stilltime doesn't need to run to maintain it. If your
+                    manufacturer resets it on reboot, the app will show you that
+                    on next launch rather than silently re-applying it.
                   </p>
                 </div>
               </div>
@@ -1124,7 +3398,9 @@
                 class="flex w-full items-center justify-between gap-4 py-5 text-left"
                 aria-expanded="false"
               >
-                <span class="font-semibold tracking-tight">How do I get rid of it?</span>
+                <span class="font-semibold tracking-tight"
+                  >How do I get rid of it?</span
+                >
                 <svg
                   viewBox="0 0 24 24"
                   class="acc-chevron size-5 shrink-0 text-ink-faint"
@@ -1141,9 +3417,10 @@
               <div class="acc-panel">
                 <div>
                   <p class="pb-5 text-[15px] leading-relaxed text-ink-muted">
-                    Uninstall it and everything Stilltime stored goes with it. The permission grant is
-                    revoked automatically. Note that uninstalling does not restore the screen timeout
-                    it changed — set that back from Android Settings first if it matters.
+                    Uninstall it and everything Stilltime stored goes with it.
+                    The permission grant is revoked automatically. Note that
+                    uninstalling does not restore the screen timeout it changed
+                    — set that back from Android Settings first if it matters.
                   </p>
                 </div>
               </div>
@@ -1173,11 +3450,13 @@
               <p
                 class="mx-auto mt-4 max-w-lg text-[16.5px] leading-relaxed text-ink-muted"
               >
-                A single small APK. No account, no sign-up, no update service. Android 7.0 and
-                newer.
+                A single small APK. No account, no sign-up, no update service.
+                Android 7.0 and newer.
               </p>
 
-              <div class="mt-9 flex flex-wrap items-center justify-center gap-3">
+              <div
+                class="mt-9 flex flex-wrap items-center justify-center gap-3"
+              >
                 <a
                   data-download
                   href="#"
@@ -1222,28 +3501,46 @@
                 class="mx-auto mt-10 grid max-w-md grid-cols-3 gap-px overflow-hidden rounded-xl border border-line bg-line"
               >
                 <div class="bg-surface px-3 py-3.5">
-                  <dt class="text-[10.5px] font-semibold tracking-widest text-ink-faint uppercase">
+                  <dt
+                    class="text-[10.5px] font-semibold tracking-widest text-ink-faint uppercase"
+                  >
                     Version
                   </dt>
-                  <dd class="mt-1 font-mono text-[13px] font-semibold" data-version>1.0.0</dd>
+                  <dd
+                    class="mt-1 font-mono text-[13px] font-semibold"
+                    data-version
+                  >
+                    1.0.0
+                  </dd>
                 </div>
                 <div class="bg-surface px-3 py-3.5">
-                  <dt class="text-[10.5px] font-semibold tracking-widest text-ink-faint uppercase">
+                  <dt
+                    class="text-[10.5px] font-semibold tracking-widest text-ink-faint uppercase"
+                  >
                     Min SDK
                   </dt>
-                  <dd class="mt-1 font-mono text-[13px] font-semibold">24 · 7.0</dd>
+                  <dd class="mt-1 font-mono text-[13px] font-semibold">
+                    24 · 7.0
+                  </dd>
                 </div>
                 <div class="bg-surface px-3 py-3.5">
-                  <dt class="text-[10.5px] font-semibold tracking-widest text-ink-faint uppercase">
+                  <dt
+                    class="text-[10.5px] font-semibold tracking-widest text-ink-faint uppercase"
+                  >
                     Permissions
                   </dt>
-                  <dd class="mt-1 font-mono text-[13px] font-semibold text-accent">2</dd>
+                  <dd
+                    class="mt-1 font-mono text-[13px] font-semibold text-accent"
+                  >
+                    2
+                  </dd>
                 </div>
               </dl>
 
               <p class="mt-8 text-[12.5px] leading-relaxed text-ink-faint">
-                Stilltime is free software provided as-is, without warranty. It is a diagnostic
-                utility, not a safety device — set a timeout you have verified works on your device.
+                Stilltime is free software provided as-is, without warranty. It
+                is a diagnostic utility, not a safety device — set a timeout you
+                have verified works on your device.
               </p>
             </div>
           </div>
@@ -1254,10 +3551,14 @@
     <!-- ============================ Footer ============================ -->
     <footer class="border-t border-line-soft py-12">
       <div class="mx-auto max-w-6xl px-5 sm:px-8">
-        <div class="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
+        <div
+          class="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between"
+        >
           <div class="max-w-xs">
             <div class="flex items-center gap-2.5">
-              <span class="grid size-8 place-items-center rounded-lg border border-line bg-surface">
+              <span
+                class="grid size-8 place-items-center rounded-lg border border-line bg-surface"
+              >
                 <svg
                   viewBox="0 0 24 24"
                   class="size-4.5 text-accent"
@@ -1271,27 +3572,43 @@
                   <path d="M12 7.2v4.8l3 1.8" />
                 </svg>
               </span>
-              <span class="text-[15px] font-bold tracking-tight">Stilltime</span>
+              <span class="text-[15px] font-bold tracking-tight"
+                >Stilltime</span
+              >
             </div>
             <p class="mt-4 text-[13.5px] leading-relaxed text-ink-faint">
-              Offline by design. No account, no tracking, no network access in the release build.
+              Offline by design. No account, no tracking, no network access in
+              the release build.
             </p>
           </div>
 
-          <nav class="grid grid-cols-2 gap-x-10 gap-y-2.5 sm:grid-cols-3" aria-label="Footer">
-            <a class="text-[13.5px] text-ink-muted transition-colors hover:text-ink" href="#how"
+          <nav
+            class="grid grid-cols-2 gap-x-10 gap-y-2.5 sm:grid-cols-3"
+            aria-label="Footer"
+          >
+            <a
+              class="text-[13.5px] text-ink-muted transition-colors hover:text-ink"
+              href="#how"
               >How it works</a
             >
-            <a class="text-[13.5px] text-ink-muted transition-colors hover:text-ink" href="#when"
+            <a
+              class="text-[13.5px] text-ink-muted transition-colors hover:text-ink"
+              href="#when"
               >When to use it</a
             >
-            <a class="text-[13.5px] text-ink-muted transition-colors hover:text-ink" href="#features"
+            <a
+              class="text-[13.5px] text-ink-muted transition-colors hover:text-ink"
+              href="#features"
               >Features</a
             >
-            <a class="text-[13.5px] text-ink-muted transition-colors hover:text-ink" href="#transparency"
+            <a
+              class="text-[13.5px] text-ink-muted transition-colors hover:text-ink"
+              href="#transparency"
               >Privacy</a
             >
-            <a class="text-[13.5px] text-ink-muted transition-colors hover:text-ink" href="#faq"
+            <a
+              class="text-[13.5px] text-ink-muted transition-colors hover:text-ink"
+              href="#faq"
               >FAQ</a
             >
             <a
@@ -1324,7 +3641,8 @@
          ================================================================== */
       const CONFIG = {
         /** @type {string} Absolute URL to the .apk. Empty = link not set yet. */
-        downloadUrl: "",
+        downloadUrl:
+          "https://github.com/nishuR31/stillTime/releases/download/v1/StillTime.apk",
         /** @type {string} Repository. */
         sourceUrl: "https://github.com/nishur31",
         /** @type {string} Shown in the download table. */
@@ -1341,7 +3659,9 @@
       (function () {
         "use strict";
 
-        var reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+        var reduced = window.matchMedia(
+          "(prefers-reduced-motion: reduce)",
+        ).matches;
 
         /* ---------------- Download links ---------------- */
         (function links() {
@@ -1358,11 +3678,13 @@
           });
 
           if (CONFIG.downloadUrl) {
-            document.querySelectorAll("[data-download]").forEach(function (node) {
-              node.setAttribute("href", CONFIG.downloadUrl);
-              node.setAttribute("download", "");
-              node.setAttribute("rel", "noopener");
-            });
+            document
+              .querySelectorAll("[data-download]")
+              .forEach(function (node) {
+                node.setAttribute("href", CONFIG.downloadUrl);
+                node.setAttribute("download", "");
+                node.setAttribute("rel", "noopener");
+              });
             return;
           }
 
@@ -1370,7 +3692,11 @@
           document.querySelectorAll("[data-download]").forEach(function (node) {
             node.setAttribute("aria-disabled", "true");
             node.removeAttribute("href");
-            node.classList.add("pointer-events-none", "opacity-55", "shadow-none");
+            node.classList.add(
+              "pointer-events-none",
+              "opacity-55",
+              "shadow-none",
+            );
           });
           labels.forEach(function (node) {
             node.textContent = "Download link soon";
@@ -1395,12 +3721,16 @@
 
           function label() {
             var isDark = root.getAttribute("data-theme") !== "light";
-            toggle.setAttribute("aria-label", isDark ? "Switch to light theme" : "Switch to dark theme");
+            toggle.setAttribute(
+              "aria-label",
+              isDark ? "Switch to light theme" : "Switch to dark theme",
+            );
           }
           label();
 
           toggle.addEventListener("click", function () {
-            var next = root.getAttribute("data-theme") === "light" ? "dark" : "light";
+            var next =
+              root.getAttribute("data-theme") === "light" ? "dark" : "light";
             root.setAttribute("data-theme", next);
             try {
               localStorage.setItem("stilltime-theme", next);
@@ -1497,7 +3827,9 @@
 
         /* ---------------- Scroll parallax ---------------- */
         (function parallax() {
-          var nodes = Array.prototype.slice.call(document.querySelectorAll("[data-parallax]"));
+          var nodes = Array.prototype.slice.call(
+            document.querySelectorAll("[data-parallax]"),
+          );
           if (!nodes.length || reduced) return;
 
           var ticking = false;
@@ -1506,7 +3838,8 @@
             var scroll = window.scrollY || 0;
             nodes.forEach(function (node) {
               var rate = parseFloat(node.getAttribute("data-parallax")) || 0.05;
-              node.style.transform = "translate3d(0," + (scroll * rate).toFixed(1) + "px,0)";
+              node.style.transform =
+                "translate3d(0," + (scroll * rate).toFixed(1) + "px,0)";
             });
           }
           window.addEventListener(
@@ -1534,7 +3867,7 @@
 
           function place(node, ratio, turns) {
             // 0 turns is 12 o'clock, growing clockwise.
-            var rad = ((turns - 0.25) * 2 * Math.PI);
+            var rad = (turns - 0.25) * 2 * Math.PI;
             node.style.left = 50 + ratio * Math.cos(rad) + "%";
             node.style.top = 50 + ratio * Math.sin(rad) + "%";
           }
@@ -1567,7 +3900,9 @@
               var open = item.getAttribute("data-open") === "true";
               document.querySelectorAll(".acc-item").forEach(function (other) {
                 other.setAttribute("data-open", "false");
-                other.querySelector("button").setAttribute("aria-expanded", "false");
+                other
+                  .querySelector("button")
+                  .setAttribute("aria-expanded", "false");
               });
               if (!open) {
                 item.setAttribute("data-open", "true");
@@ -1578,6 +3913,5 @@
         })();
       })();
     </script>
-
   </body>
 </html>
